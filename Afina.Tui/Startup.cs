@@ -161,8 +161,8 @@ namespace Afina.Tui
 				spa.Options.StartupTimeout = new TimeSpan(0, 0, 300);
 				if (env.IsDevelopment())
 				{
-					spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
-					//spa.UseAngularCliServer(npmScript: "start");
+					//spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+					spa.UseAngularCliServer(npmScript: "start");
 				}
 			});
 		}
