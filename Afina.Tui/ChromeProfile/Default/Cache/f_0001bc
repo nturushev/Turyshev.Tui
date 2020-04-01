@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html ng-app="searchApp" ng-controller="anexCtrl" lang="ru">
+<head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WKRsp_cLNgfHQRGAXuC5d9uGFClfYvTzfr0VBn7o82tBQDSQcMa-KaYfl7MGoVwb-1qNJhr7m9vCB5B58-j3fQ" charset="UTF-8"></script><base href="/" />
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Flights</title>
+<meta name="yandex-verification" content="d21a73b60e4b9f20" />
+<link rel="alternate" href="http://b2b.anextour.com" hreflang="ru-ru" />
+<link rel="canonical" href="http://b2b.anextour.com/flights" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|PT+Sans|PT+Sans+Narrow|Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c){var d,e=document,f=e.getElementsByTagName("SCRIPT"),g=f[f.length-1].previousElementSibling,h=e.defaultView&&e.defaultView.getComputedStyle?e.defaultView.getComputedStyle(g):g.currentStyle;if(h&&h[a]!==b)for(d=0;d<c.length;d++)e.write('<link rel="stylesheet" href="'+c[d]+'"/>')}("position","absolute",["\/lib\/bootstrap\/dist\/css\/bootstrap.min.css"]);</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="fa" /><script>!function(a,b,c){var d,e=document,f=e.getElementsByTagName("SCRIPT"),g=f[f.length-1].previousElementSibling,h=e.defaultView&&e.defaultView.getComputedStyle?e.defaultView.getComputedStyle(g):g.currentStyle;if(h&&h[a]!==b)for(d=0;d<c.length;d++)e.write('<link rel="stylesheet" href="'+c[d]+'"/>')}("display","inline-block",["\/lib\/font-awesome\/css\/font-awesome.min.css"]);</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="ui-helper-hidden" /><script>!function(a,b,c){var d,e=document,f=e.getElementsByTagName("SCRIPT"),g=f[f.length-1].previousElementSibling,h=e.defaultView&&e.defaultView.getComputedStyle?e.defaultView.getComputedStyle(g):g.currentStyle;if(h&&h[a]!==b)for(d=0;d<c.length;d++)e.write('<link rel="stylesheet" href="'+c[d]+'"/>')}("display","none",["\/lib\/jquery-ui\/themes\/base\/jquery-ui.min.css"]);</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="animated" /><script>!function(a,b,c){var d,e=document,f=e.getElementsByTagName("SCRIPT"),g=f[f.length-1].previousElementSibling,h=e.defaultView&&e.defaultView.getComputedStyle?e.defaultView.getComputedStyle(g):g.currentStyle;if(h&&h[a]!==b)for(d=0;d<c.length;d++)e.write('<link rel="stylesheet" href="'+c[d]+'"/>')}("animation-fill-mode","both",["\/lib\/animate.css\/animate.min.css"]);</script>
+<link href="/dist/css/search.min.css?v=28" rel="stylesheet" />
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q5J34X');</script>
+</head>
+<body class="no-admin ">
+
+<noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q5J34X" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+<div class="attention-container" ng-class="{actived: AttentionTopCookieGet() == undefined}">
+<div class="container">
+<div class="row clearfix">
+<div id="attentionTop" class="">
+<div class="col-xs-12 col-lg-10 text-area">
+Для повышения удобства сайта мы используем cookies. Оставаясь на сайте, вы соглашаетесь с <a href="/page/145/politika-obrabotki-personalnykh-dannykh " class="text-bold" target="_blank">Политикой конфиденциальности.</a>
+</div>
+<div class="col-xs-12 col-lg-2 button-area">
+<a href="javascript:void(0);" ng-click="AttentionTopCookieSet()" id="attentionTopClose" class="btn btn-default">Согласен</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="top-menu-container">
+<div class="header">
+<div class="container">
+<div class="row clearfix">
+<div class="col-xs-6 website-type-area">
+<ul class="routing-link-list">
+<li><a href="https://www.anextour.com">Туристам</a></li>
+<li class="active"><a href="javascript:void(0);">Турагентствам</a></li>
+</ul>
+</div>
+<div class="col-xs-6 currency-area">
+<a href="javascript:void(0);" data-toggle="modal" data-target="#currencyModal" title="Архив Курсов">
+<span>24.11.2019</span>|
+<span>USD 65.3</span>
+<span>EUR 72.28</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="body">
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="row clearfix">
+<div class="collapse navbar-collapse">
+<div class="logo-area">
+<a href="/">
+<img src="/images/anex-logo.svg" alt="Anex Tour" />
+</a>
+</div>
+<ul class="nav navbar-nav">
+<li class="dropdown">
+<a href="javascript:void(0);" target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+&#x41E; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x438;
+<i class="fa fa-angle-down m-l-5"></i>
+</a>
+<ul class="dropdown-menu dropdown-submenu">
+<li>
+<a href="/page/149/about-company" target="_blank">Информация о компании</a>
+</li>
+<li>
+<a href="http://b2b.anextour.com/page/2715/vakansii" target="_blank">Вакансии</a>
+</li>
+<li>
+<a href="/page/20/contents" target="_blank">Новости</a>
+</li>
+<li>
+<a href="/page/904/contacts" target="_blank">Контакты</a>
+</li>
+<li>
+<a href="/page/464/press-center" target="_blank">Пресс-центр</a>
+</li>
+<li>
+<a href="/page/144/tour-agencies" target="_blank">Реестр турагентств</a>
+</li>
+<li>
+<a href="/page/145/politika-obrabotki-personalnykh-dannykh" target="_blank">Политика конфиденциальности</a>
+</li>
+<li>
+<a href="/page/103/reviews" target="_blank">Отзывы</a>
+</li>
+<li>
+<a href="/page/511" target="_blank">Благодарности</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="javascript:void(0);" target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+&#x410;&#x433;&#x435;&#x43D;&#x442;&#x441;&#x442;&#x432;&#x430;&#x43C;
+<i class="fa fa-angle-down m-l-5"></i>
+</a>
+<ul class="dropdown-menu dropdown-submenu">
+<li>
+<a href="/search" target="_blank">Поиск тура</a>
+</li>
+<li>
+<a href="/page/19/actions" target="_blank">Акции</a>
+</li>
+<li>
+<a href="/page/97/special-offers" target="_blank">Спецпредложения</a>
+</li>
+<li>
+<a href="/page/89/tochka-prodazh-aneks-tur" target="_blank">Турагентство ANEX Tour</a>
+</li>
+<li>
+<a href="/page/1291/anex-profi" target="_blank">ANEX Pro</a>
+</li>
+<li>
+<a href="/page/90/terms-of-cooperation" target="_blank">Сотрудничество</a>
+</li>
+<li>
+<a href="/page/95/conditions-and-methods-of-payment" target="_blank">Оплата</a>
+</li>
+<li>
+<a href="/page/835" target="_blank">Страхование</a>
+</li>
+<li>
+<a href="/page/96/release-of-documents" target="_blank">Выдача документов</a>
+</li>
+<li>
+<a href="/page/98/elektronnyy-dokumentooborot" target="_blank">Электронный документооборот</a>
+</li>
+<li>
+<a href="/page/73/tourist-info-all" target="_blank">Памятки туристам</a>
+</li>
+<li>
+<a href="/page/236/bonusnaya-programma" target="_blank">Бонусная программа</a>
+</li>
+<li>
+<a href="http://samo.anextour.com/default.php?page=bonus_manager&amp;" target="_blank">Бонусный баланс</a>
+</li>
+<li>
+<a href="/page/500/zapros-v-yuridicheskii-otdel" target="_blank">Запрос в юридический отдел</a>
+</li>
+<li>
+<a href="/page/569/fit" target="_blank">FIT (Отдел индивидуального туризма)</a>
+</li>
+<li>
+<a href="/page/104/mice" target="_blank">MICE (Отдел корпоративного туризма)</a>
+</li>
+<li>
+<a href="/page/1003/faq" target="_blank">Часто задаваемые вопросы</a>
+</li>
+<li>
+<a href="/page/473/lichnyi-kabinet" target="_blank">Личный кабинет</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="javascript:void(0);" target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+&#x410;&#x432;&#x438;&#x430;&#x43F;&#x435;&#x440;&#x435;&#x43B;&#x451;&#x442;&#x44B;
+<i class="fa fa-angle-down m-l-5"></i>
+</a>
+<ul class="dropdown-menu dropdown-submenu">
+<li>
+<a href="/flights" target="_blank">Монитор рейсов</a>
+</li>
+<li>
+<a href="/page/134/aviaperelyoty-vazhnaya-informaciya" target="_blank">Важная информация</a>
+</li>
+<li>
+<a href="/page/99/the-order-of-granting-certificates-of-cost-charters" target="_blank">Порядок предоставления справок о стоимости чартерного авиабилета</a>
+</li>
+<li>
+<a href="/page/135/informaciya-dlya-passazhirov" target="_blank">Информация для пассажиров</a>
+</li>
+<li>
+<a href="/page/138/aeroporty" target="_blank">Аэропорты</a>
+</li>
+<li>
+<a href="/page/136/reisy-s-dozapravkoi" target="_blank">Рейсы с дозаправкой</a>
+</li>
+<li>
+<a href="/page/520/opisanie-uslugi-fast-track" target="_blank">VIP услуги в аэропортах</a>
+</li>
+<li>
+<a href="/page/1004/novyi-uroven-poleta-komfort-i-biznes-klassy" target="_blank">Комфорт и бизнес классы</a>
+</li>
+<li>
+<a href="/page/570/dopolnitelnye-uslugi" target="_blank">Дополнительные услуги</a>
+</li>
+<li>
+<a href="/page/717/biznes-zaly-v-aeroportakh" target="_blank">Бизнес-залы в аэропортах</a>
+</li>
+<li>
+<a href="/page/1447/novaya-usluga-bilety-na-aeroekspress" target="_blank">Билеты на «Аэроэкспресс»</a>
+</li>
+</ul>
+</li>
+<li class="dropdown destination-list">
+<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Страны <i class="fa fa-angle-down m-l-5"></i></a>
+<ul class="dropdown-menu dropdown-submenu">
+<li>
+<a href="/destination/188/abkhazia">
+<span class="flag24 flag-ab"></span>
+<span>&#x410;&#x431;&#x445;&#x430;&#x437;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/46/austria">
+<span class="flag24 flag-at"></span>
+<span>&#x410;&#x432;&#x441;&#x442;&#x440;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/16/azerbaijan">
+<span class="flag24 flag-az"></span>
+<span>&#x410;&#x437;&#x435;&#x440;&#x431;&#x430;&#x439;&#x434;&#x436;&#x430;&#x43D;</span>
+</a>
+</li>
+<li>
+<a href="/destination/171/andorra">
+<span class="flag24 flag-ad"></span>
+<span>&#x410;&#x43D;&#x434;&#x43E;&#x440;&#x440;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/14/armenia">
+<span class="flag24 flag-am"></span>
+<span>&#x410;&#x440;&#x43C;&#x435;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/4/belarus">
+<span class="flag24 flag-by"></span>
+<span>&#x411;&#x435;&#x43B;&#x430;&#x440;&#x443;&#x441;&#x44C;</span>
+</a>
+</li>
+<li>
+<a href="/destination/51/belgium">
+<span class="flag24 flag-be"></span>
+<span>&#x411;&#x435;&#x43B;&#x44C;&#x433;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/52/bulgaria">
+<span class="flag24 flag-bg"></span>
+<span>&#x411;&#x43E;&#x43B;&#x433;&#x430;&#x440;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/59/brazilia">
+<span class="flag24 flag-br"></span>
+<span>&#x411;&#x440;&#x430;&#x437;&#x438;&#x43B;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/113/hungary">
+<span class="flag24 flag-hu"></span>
+<span>&#x412;&#x435;&#x43D;&#x433;&#x440;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/166/vietnam">
+<span class="flag24 flag-vn"></span>
+<span>&#x412;&#x44C;&#x435;&#x442;&#x43D;&#x430;&#x43C;</span>
+</a>
+</li>
+<li>
+<a href="/destination/20/germany">
+<span class="flag24 flag-de"></span>
+<span>&#x413;&#x435;&#x440;&#x43C;&#x430;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/17/greece">
+<span class="flag24 flag-gr"></span>
+<span>&#x413;&#x440;&#x435;&#x446;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/98/georgia">
+<span class="flag24 flag-ge"></span>
+<span>&#x413;&#x440;&#x443;&#x437;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/86/dominician-republic">
+<span class="flag24 flag-do"></span>
+<span>&#x414;&#x43E;&#x43C;&#x438;&#x43D;&#x438;&#x43A;&#x430;&#x43D;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/11/egypt">
+<span class="flag24 flag-eg"></span>
+<span>&#x415;&#x433;&#x438;&#x43F;&#x435;&#x442;</span>
+</a>
+</li>
+<li>
+<a href="/destination/18/israel">
+<span class="flag24 flag-il"></span>
+<span>&#x418;&#x437;&#x440;&#x430;&#x438;&#x43B;&#x44C;</span>
+</a>
+</li>
+<li>
+<a href="/destination/118/goa">
+<span class="flag24 flag-in"></span>
+<span>&#x418;&#x43D;&#x434;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/114/indonesia">
+<span class="flag24 flag-id"></span>
+<span>&#x418;&#x43D;&#x434;&#x43E;&#x43D;&#x435;&#x437;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/125/jordan">
+<span class="flag24 flag-jo"></span>
+<span>&#x418;&#x43E;&#x440;&#x434;&#x430;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/92/spain">
+<span class="flag24 flag-es"></span>
+<span>&#x418;&#x441;&#x43F;&#x430;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/21/italy">
+<span class="flag24 flag-it"></span>
+<span>&#x418;&#x442;&#x430;&#x43B;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/64/qatar">
+<span class="flag24 flag-qa"></span>
+<span>&#x41A;&#x430;&#x442;&#x430;&#x440;</span>
+</a>
+</li>
+<li>
+<a href="/destination/79/cyprus">
+<span class="flag24 flag-cy"></span>
+<span>&#x41A;&#x438;&#x43F;&#x440;</span>
+</a>
+</li>
+<li>
+<a href="/destination/73/china">
+<span class="flag24 flag-cn"></span>
+<span>&#x41A;&#x438;&#x442;&#x430;&#x439;</span>
+</a>
+</li>
+<li>
+<a href="/destination/77/cuba">
+<span class="flag24 flag-cu"></span>
+<span>&#x41A;&#x443;&#x431;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/152/mauritius">
+<span class="flag24 flag-mu"></span>
+<span>&#x41C;&#x430;&#x432;&#x440;&#x438;&#x43A;&#x438;&#x439;</span>
+</a>
+</li>
+<li>
+<a href="/destination/155/malaysia">
+<span class="flag24 flag-my"></span>
+<span>&#x41C;&#x430;&#x43B;&#x430;&#x439;&#x437;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/176/maldives">
+<span class="flag24 flag-mv"></span>
+<span>&#x41C;&#x430;&#x43B;&#x44C;&#x434;&#x438;&#x432;&#x44B;</span>
+</a>
+ </li>
+<li>
+<a href="/destination/151/malta">
+<span class="flag24 flag-mt"></span>
+<span>&#x41C;&#x430;&#x43B;&#x44C;&#x442;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/141/morocco">
+<span class="flag24 flag-ma"></span>
+<span>&#x41C;&#x430;&#x440;&#x43E;&#x43A;&#x43A;&#x43E;</span>
+</a>
+</li>
+<li>
+<a href="/destination/154/mexico">
+<span class="flag24 flag-mx"></span>
+<span>&#x41C;&#x435;&#x43A;&#x441;&#x438;&#x43A;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/158/netherlands">
+<span class="flag24 flag-nl"></span>
+<span>&#x41D;&#x438;&#x434;&#x435;&#x440;&#x43B;&#x430;&#x43D;&#x434;&#x44B;</span>
+</a>
+</li>
+<li>
+<a href="/destination/34/uae">
+<span class="flag24 flag-ae"></span>
+<span>&#x41E;&#x410;&#x42D;</span>
+</a>
+</li>
+<li>
+<a href="/destination/162/panama">
+<span class="flag24 flag-pa"></span>
+<span>&#x41F;&#x430;&#x43D;&#x430;&#x43C;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/163/peru">
+<span class="flag24 flag-pe"></span>
+<span>&#x41F;&#x435;&#x440;&#x443;</span>
+</a>
+</li>
+<li>
+<a href="/destination/53/portugal">
+<span class="flag24 flag-pt"></span>
+<span>&#x41F;&#x43E;&#x440;&#x442;&#x443;&#x433;&#x430;&#x43B;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/2/russia">
+<span class="flag24 flag-ru"></span>
+<span>&#x420;&#x43E;&#x441;&#x441;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/91/singapore">
+<span class="flag24 flag-sg"></span>
+<span>&#x421;&#x438;&#x43D;&#x433;&#x430;&#x43F;&#x443;&#x440;</span>
+</a>
+</li>
+<li>
+<a href="/destination/134/thailand">
+<span class="flag24 flag-th"></span>
+<span>&#x422;&#x430;&#x438;&#x43B;&#x430;&#x43D;&#x434;</span>
+</a>
+</li>
+<li>
+<a href="/destination/180/tanzania">
+<span class="flag24 flag-tz"></span>
+<span>&#x422;&#x430;&#x43D;&#x437;&#x430;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/142/tunisia">
+<span class="flag24 flag-tn"></span>
+<span>&#x422;&#x443;&#x43D;&#x438;&#x441;</span>
+</a>
+</li>
+<li>
+<a href="/destination/3/turkey">
+<span class="flag24 flag-tr"></span>
+<span>&#x422;&#x443;&#x440;&#x446;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/32/france">
+<span class="flag24 flag-fr"></span>
+<span>&#x424;&#x440;&#x430;&#x43D;&#x446;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/110/croatia">
+<span class="flag24 flag-hr"></span>
+<span>&#x425;&#x43E;&#x440;&#x432;&#x430;&#x442;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/175/montenegro">
+<span class="flag24 flag-me"></span>
+<span>&#x427;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E;&#x440;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/80/czech-republic">
+<span class="flag24 flag-cz"></span>
+<span>&#x427;&#x435;&#x445;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/23/switzerland">
+<span class="flag24 flag-ch"></span>
+<span>&#x428;&#x432;&#x435;&#x439;&#x446;&#x430;&#x440;&#x438;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/137/sri-lanka">
+<span class="flag24 flag-lk"></span>
+<span>&#x428;&#x440;&#x438;-&#x41B;&#x430;&#x43D;&#x43A;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/26/south-korea">
+<span class="flag24 flag-kr"></span>
+<span>&#x42E;&#x436;&#x43D;&#x430;&#x44F; &#x41A;&#x43E;&#x440;&#x435;&#x44F;</span>
+</a>
+</li>
+<li>
+<a href="/destination/123/jamaica">
+<span class="flag24 flag-jm"></span>
+<span>&#x42F;&#x43C;&#x430;&#x439;&#x43A;&#x430;</span>
+</a>
+</li>
+<li>
+<a href="/destination/126/japan">
+<span class="flag24 flag-jp"></span>
+<span>&#x42F;&#x43F;&#x43E;&#x43D;&#x438;&#x44F;</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="region-area">
+<a href="javascript:void(0);" data-toggle="modal" data-target="#regionModal">
+<span>Ваш регион:</span>
+<span>&#x41C;&#x41E;&#x421;&#x41A;&#x412;&#x410;</span>
+</a>
+</li>
+<li class="phone-area">
+<a href="/page/904/contacts">
+<span>&#x2B;7 499 654-04-04</span>
+<span>Форма обратной связи</span>
+</a>
+</li>
+<li class="dropdown personal-cabinet-area">
+<a href="javascript:void(0);" class="personel-account-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+<i class="lc-icons key"></i>
+<span>Личный кабинет</span>
+</a>
+<ul class="dropdown-menu pull-right dropdown-submenu">
+<li class="user">Здравствуйте, aero-vko</li>
+<li class="divider"></li>
+<li>
+<a href="http://samo.anextour.com/default.php?page=cl_refer&"><i class="lc-icons key"></i><span>Справочник заявок</span></a>
+</li>
+<li>
+<a href="/page/148/redaktirovanie-dannykh"><i class="lc-icons edit"></i><span>Редактирование данных</span></a>
+</li>
+<li>
+<a href="/page/147/master-proizvolnoi-zayavki-iframe-samo-master"><i class="lc-icons calculator"></i><span>Мастер произвольной заявки</span></a>
+</li>
+<li>
+<a href="http://samo.anextour.com/default.php?page=bonus_manager&"><i class="lc-icons gift"></i><span>Бонусный баланс</span></a>
+</li>
+<li>
+<a href="/cdn-cgi/l/email-protection#8beef9f9e4f9cbeae5eef3ffe4fef9a5e8e4e6"><i class="lc-icons warning"></i><span>Сообщить об ошибке</span></a>
+</li>
+<li class="divider"></li>
+<li class="signout">
+<a href="/auth/signout">Выход</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="modal fade" id="regionModal" tabindex="-1" role="dialog" aria-labelledby="regionModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="regionModalLabel">Регион</h4>
+</div>
+<div class="modal-body">
+<h4 class="market-title">
+<span class="flag24 flag-by"></span>
+<span>&#x411;&#x435;&#x43B;&#x430;&#x440;&#x443;&#x441;&#x44C;</span>
+</h4>
+<div class="region-list">
+<div class="row clearfix">
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.by/?regionId=22">
+<i class="sprite-regions-arms sprite-region-22"></i>
+<span>&#x41C;&#x438;&#x43D;&#x441;&#x43A;</span>
+</a>
+</div>
+</div>
+</div>
+<hr />
+<h4 class="market-title">
+<span class="flag24 flag-kz"></span>
+<span>&#x41A;&#x430;&#x437;&#x430;&#x445;&#x441;&#x442;&#x430;&#x43D;</span>
+</h4>
+<div class="region-list">
+<div class="row clearfix">
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=557">
+<i class="sprite-regions-arms sprite-region-557"></i>
+<span>&#x410;&#x43A;&#x442;&#x43E;&#x431;&#x435;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=140">
+<i class="sprite-regions-arms sprite-region-140"></i>
+<span>&#x410;&#x43B;&#x43C;&#x430;&#x442;&#x44B;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=1025">
+<i class="sprite-regions-arms sprite-region-1025"></i>
+<span>&#x41A;&#x430;&#x440;&#x430;&#x433;&#x430;&#x43D;&#x434;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=519">
+<i class="sprite-regions-arms sprite-region-519"></i>
+<span>&#x41A;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x439;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=161">
+<i class="sprite-regions-arms sprite-region-161"></i>
+<span>&#x41D;&#x443;&#x440;-&#x421;&#x443;&#x43B;&#x442;&#x430;&#x43D;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=572">
+<i class="sprite-regions-arms sprite-region-572"></i>
+<span>&#x41F;&#x430;&#x432;&#x43B;&#x43E;&#x434;&#x430;&#x440;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=1250">
+<i class="sprite-regions-arms sprite-region-1250"></i>
+<span>&#x423;&#x441;&#x442;&#x44C;-&#x41A;&#x430;&#x43C;&#x435;&#x43D;&#x43E;&#x433;&#x43E;&#x440;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.kz/?regionId=1360">
+<i class="sprite-regions-arms sprite-region-1360"></i>
+<span>&#x428;&#x44B;&#x43C;&#x43A;&#x435;&#x43D;&#x442;</span>
+</a>
+</div>
+</div>
+</div>
+<hr />
+<h4 class="market-title">
+<span class="flag24 flag-ru"></span>
+<span>&#x420;&#x43E;&#x441;&#x441;&#x438;&#x44F;</span>
+</h4>
+<div class="region-list">
+<div class="row clearfix">
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=531">
+<i class="sprite-regions-arms sprite-region-531"></i>
+<span>&#x410;&#x43D;&#x430;&#x43F;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=55">
+<i class="sprite-regions-arms sprite-region-55"></i>
+<span>&#x410;&#x440;&#x445;&#x430;&#x43D;&#x433;&#x435;&#x43B;&#x44C;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=168">
+<i class="sprite-regions-arms sprite-region-168"></i>
+<span>&#x410;&#x441;&#x442;&#x440;&#x430;&#x445;&#x430;&#x43D;&#x44C;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=166">
+<i class="sprite-regions-arms sprite-region-166"></i>
+<span>&#x411;&#x430;&#x440;&#x43D;&#x430;&#x443;&#x43B;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=54">
+<i class="sprite-regions-arms sprite-region-54"></i>
+<span>&#x411;&#x435;&#x43B;&#x433;&#x43E;&#x440;&#x43E;&#x434;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=426">
+<i class="sprite-regions-arms sprite-region-426"></i>
+<span>&#x411;&#x43B;&#x430;&#x433;&#x43E;&#x432;&#x435;&#x449;&#x435;&#x43D;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=93">
+<i class="sprite-regions-arms sprite-region-93"></i>
+<span>&#x412;&#x43B;&#x430;&#x434;&#x438;&#x432;&#x43E;&#x441;&#x442;&#x43E;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=479">
+<i class="sprite-regions-arms sprite-region-479"></i>
+<span>&#x412;&#x43B;&#x430;&#x434;&#x438;&#x43A;&#x430;&#x432;&#x43A;&#x430;&#x437;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=78">
+<i class="sprite-regions-arms sprite-region-78"></i>
+<span>&#x412;&#x43E;&#x43B;&#x433;&#x43E;&#x433;&#x440;&#x430;&#x434;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=58">
+<i class="sprite-regions-arms sprite-region-58"></i>
+<span>&#x412;&#x43E;&#x440;&#x43E;&#x43D;&#x435;&#x436;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=595">
+<i class="sprite-regions-arms sprite-region-595"></i>
+<span>&#x413;&#x440;&#x43E;&#x437;&#x43D;&#x44B;&#x439;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=69">
+<i class="sprite-regions-arms sprite-region-69"></i>
+<span>&#x415;&#x43A;&#x430;&#x442;&#x435;&#x440;&#x438;&#x43D;&#x431;&#x443;&#x440;&#x433;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=146">
+<i class="sprite-regions-arms sprite-region-146"></i>
+<span>&#x418;&#x440;&#x43A;&#x443;&#x442;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=44">
+<i class="sprite-regions-arms sprite-region-44"></i>
+<span>&#x41A;&#x430;&#x437;&#x430;&#x43D;&#x44C;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=26">
+<i class="sprite-regions-arms sprite-region-26"></i>
+<span>&#x41A;&#x430;&#x43B;&#x438;&#x43D;&#x438;&#x43D;&#x433;&#x440;&#x430;&#x434;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=97">
+<i class="sprite-regions-arms sprite-region-97"></i>
+<span>&#x41A;&#x430;&#x43B;&#x443;&#x433;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=137">
+<i class="sprite-regions-arms sprite-region-137"></i>
+<span>&#x41A;&#x435;&#x43C;&#x435;&#x440;&#x43E;&#x432;&#x43E;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=98">
+<i class="sprite-regions-arms sprite-region-98"></i>
+<span>&#x41A;&#x440;&#x430;&#x441;&#x43D;&#x43E;&#x434;&#x430;&#x440;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=37">
+<i class="sprite-regions-arms sprite-region-37"></i>
+<span>&#x41A;&#x440;&#x430;&#x441;&#x43D;&#x43E;&#x44F;&#x440;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=573">
+<i class="sprite-regions-arms sprite-region-573"></i>
+<span>&#x41C;&#x430;&#x433;&#x430;&#x434;&#x430;&#x43D;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=141">
+<i class="sprite-regions-arms sprite-region-141"></i>
+<span>&#x41C;&#x430;&#x433;&#x43D;&#x438;&#x442;&#x43E;&#x433;&#x43E;&#x440;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=384">
+<i class="sprite-regions-arms sprite-region-384"></i>
+<span>&#x41C;&#x430;&#x445;&#x430;&#x447;&#x43A;&#x430;&#x43B;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=541">
+<i class="sprite-regions-arms sprite-region-541"></i>
+<span>&#x41C;&#x438;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x412;&#x43E;&#x434;&#x44B;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=2" class="active">
+<i class="sprite-regions-arms sprite-region-2"></i>
+<span>&#x41C;&#x43E;&#x441;&#x43A;&#x432;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=51">
+<i class="sprite-regions-arms sprite-region-51"></i>
+<span>&#x41C;&#x443;&#x440;&#x43C;&#x430;&#x43D;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=107">
+<i class="sprite-regions-arms sprite-region-107"></i>
+<span>&#x41D;&#x438;&#x436;&#x43D;&#x435;&#x432;&#x430;&#x440;&#x442;&#x43E;&#x432;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=198">
+<i class="sprite-regions-arms sprite-region-198"></i>
+<span>&#x41D;&#x438;&#x436;&#x43D;&#x435;&#x43A;&#x430;&#x43C;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=40">
+<i class="sprite-regions-arms sprite-region-40"></i>
+<span>&#x41D;&#x438;&#x436;&#x43D;&#x438;&#x439; &#x41D;&#x43E;&#x432;&#x433;&#x43E;&#x440;&#x43E;&#x434;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=216">
+<i class="sprite-regions-arms sprite-region-216"></i>
+<span>&#x41D;&#x43E;&#x432;&#x43E;&#x43A;&#x443;&#x437;&#x43D;&#x435;&#x446;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=76">
+<i class="sprite-regions-arms sprite-region-76"></i>
+<span>&#x41D;&#x43E;&#x432;&#x43E;&#x441;&#x438;&#x431;&#x438;&#x440;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=100">
+<i class="sprite-regions-arms sprite-region-100"></i>
+<span>&#x41E;&#x43C;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=95">
+<i class="sprite-regions-arms sprite-region-95"></i>
+<span>&#x41E;&#x440;&#x435;&#x43D;&#x431;&#x443;&#x440;&#x433;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=25">
+<i class="sprite-regions-arms sprite-region-25"></i>
+<span>&#x41F;&#x435;&#x440;&#x43C;&#x44C;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=23">
+<i class="sprite-regions-arms sprite-region-23"></i>
+<span>&#x420;&#x43E;&#x441;&#x442;&#x43E;&#x432;-&#x43D;&#x430;-&#x414;&#x43E;&#x43D;&#x443;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=32">
+<i class="sprite-regions-arms sprite-region-32"></i>
+<span>&#x421;&#x430;&#x43C;&#x430;&#x440;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=39">
+<i class="sprite-regions-arms sprite-region-39"></i>
+<span>&#x421;&#x430;&#x43D;&#x43A;&#x442;-&#x41F;&#x435;&#x442;&#x435;&#x440;&#x431;&#x443;&#x440;&#x433;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=134">
+<i class="sprite-regions-arms sprite-region-134"></i>
+<span>&#x421;&#x430;&#x440;&#x430;&#x442;&#x43E;&#x432;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=151">
+<i class="sprite-regions-arms sprite-region-151"></i>
+<span>&#x421;&#x43E;&#x447;&#x438;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=71">
+<i class="sprite-regions-arms sprite-region-71"></i>
+<span>&#x421;&#x442;&#x430;&#x432;&#x440;&#x43E;&#x43F;&#x43E;&#x43B;&#x44C;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=111">
+<i class="sprite-regions-arms sprite-region-111"></i>
+<span>&#x421;&#x443;&#x440;&#x433;&#x443;&#x442;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=143">
+<i class="sprite-regions-arms sprite-region-143"></i>
+<span>&#x421;&#x44B;&#x43A;&#x442;&#x44B;&#x432;&#x43A;&#x430;&#x440;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=80">
+<i class="sprite-regions-arms sprite-region-80"></i>
+<span>&#x422;&#x43E;&#x43C;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=136">
+<i class="sprite-regions-arms sprite-region-136"></i>
+<span>&#x422;&#x44E;&#x43C;&#x435;&#x43D;&#x44C;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=50">
+<i class="sprite-regions-arms sprite-region-50"></i>
+<span>&#x423;&#x43B;&#x44C;&#x44F;&#x43D;&#x43E;&#x432;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=61">
+<i class="sprite-regions-arms sprite-region-61"></i>
+<span>&#x423;&#x444;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=223">
+<i class="sprite-regions-arms sprite-region-223"></i>
+<span>&#x425;&#x430;&#x431;&#x430;&#x440;&#x43E;&#x432;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=145">
+<i class="sprite-regions-arms sprite-region-145"></i>
+<span>&#x425;&#x430;&#x43D;&#x442;&#x44B;-&#x41C;&#x430;&#x43D;&#x441;&#x438;&#x439;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=152">
+<i class="sprite-regions-arms sprite-region-152"></i>
+<span>&#x427;&#x435;&#x43B;&#x44F;&#x431;&#x438;&#x43D;&#x441;&#x43A;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://b2b.anextour.com/?regionId=209">
+<i class="sprite-regions-arms sprite-region-209"></i>
+<span>&#x42E;&#x436;&#x43D;&#x43E;-&#x421;&#x430;&#x445;&#x430;&#x43B;&#x438;&#x43D;&#x441;&#x43A;</span>
+</a>
+</div>
+</div>
+</div>
+<hr />
+<h4 class="market-title">
+<span class="flag24 flag-ua"></span>
+<span>&#x423;&#x43A;&#x440;&#x430;&#x438;&#x43D;&#x430;</span>
+</h4>
+<div class="region-list">
+<div class="row clearfix">
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=330">
+<i class="sprite-regions-arms sprite-region-330"></i>
+<span>&#x414;&#x43D;&#x435;&#x43F;&#x440;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=333">
+<i class="sprite-regions-arms sprite-region-333"></i>
+<span>&#x417;&#x430;&#x43F;&#x43E;&#x440;&#x43E;&#x436;&#x44C;&#x435;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=155">
+<i class="sprite-regions-arms sprite-region-155"></i>
+<span>&#x41A;&#x438;&#x435;&#x432;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=338">
+<i class="sprite-regions-arms sprite-region-338"></i>
+<span>&#x41B;&#x44C;&#x432;&#x43E;&#x432;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=340">
+<i class="sprite-regions-arms sprite-region-340"></i>
+<span>&#x41E;&#x434;&#x435;&#x441;&#x441;&#x430;</span>
+</a>
+</div>
+<div class="column col-xs-12 col-sm-6 col-md-4">
+<a href="http://www.anextour.com.ua/?regionId=60">
+<i class="sprite-regions-arms sprite-region-60"></i>
+<span>&#x425;&#x430;&#x440;&#x44C;&#x43A;&#x43E;&#x432;</span>
+</a>
+</div>
+</div>
+</div>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="currencyModal" tabindex="-1" role="dialog" aria-labelledby="currenyModalLabel" currency-modal>
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="currenyModalLabel">История Изменения Курса</h4>
+</div>
+<div class="modal-body">
+<div class="loader ng-cloack" ng-hide="currencies">
+<img src="/images/loader-blue.gif" />
+</div>
+<table class="table table-hover table-bordered table-currency ng-cloack" ng-show="currencies">
+<thead>
+<tr>
+<th></th>
+<th><i class="fa fa-usd"></i></th>
+<th><i class="fa fa-eur"></i></th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="item in currencies">
+<td ng-bind="item.date"></td>
+<td ng-bind="item.usd"></td>
+<td ng-bind="item.eur"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div style="margin-top: 15px; background-color: #f2f2f2;">
+<div class="container-fluid">
+<div class="row clearfix">
+<div class="col-sm-12 padding-0" freight-monitor>
+<iframe src="https://searchtour.anextour.com/default.php?page=freight_monitor" width="100%" height="20000" frameborder="0" scrolling="no"></iframe>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row clearfix">
+<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+<div data-zoneid="z1" class="zone-container" data-zone="true">
+</div>
+</div>
+</div>
+<div class="row clearfix">
+<div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+<div class="col">
+<div data-zoneid="z2" class="zone-container" data-zone="true">
+</div>
+</div>
+</div>
+<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+<div class="col">
+<div data-zoneid="z3" class="zone-container" data-zone="true">
+</div>
+</div>
+</div>
+</div>
+<div class="row clearfix">
+<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12">
+<div data-zoneid="z4" class="zone-container" data-zone="true">
+</div>
+</div>
+<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+<div data-zoneid="z5" class="zone-container" data-zone="true">
+</div>
+</div>
+<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12">
+<div data-zoneid="z6" class="zone-container" data-zone="true">
+</div>
+</div>
+</div>
+<div class="row clearfix">
+<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+<div data-zoneid="z7" class="zone-container" data-zone="true">
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="header">
+<div class="container">
+<div class="row clearfix">
+<div class="col-xs-12 col-sm-12 col-md-9 sub-menu-area">
+<div class="row clearfix">
+<div class="col-xs-12 col-sm-4 column">
+<div class="title">&#x41E; &#x41A;&#x41E;&#x41C;&#x41F;&#x410;&#x41D;&#x418;&#x418;</div>
+<ul class="submenu">
+<li>
+<a href="/page/149/about-company">Информация о компании</a>
+</li>
+<li>
+<a href="http://b2b.anextour.com/page/2715/vakansii">Вакансии</a>
+</li>
+<li>
+<a href="/page/20/contents">Новости</a>
+</li>
+<li>
+<a href="/page/904/contacts">Контакты</a>
+</li>
+<li>
+<a href="/page/464/press-center">Пресс-центр</a>
+</li>
+<li>
+<a href="/page/144/tour-agencies">Реестр турагентств</a>
+</li>
+<li>
+<a href="/page/145/politika-obrabotki-personalnykh-dannykh">Политика конфиденциальности</a>
+</li>
+<li>
+<a href="/page/103/reviews">Отзывы</a>
+</li>
+<li>
+<a href="/page/511">Благодарности</a>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-4 column">
+<div class="title">&#x410;&#x413;&#x415;&#x41D;&#x422;&#x421;&#x422;&#x412;&#x410;&#x41C;</div>
+<ul class="submenu">
+<li>
+<a href="/search">Поиск тура</a>
+</li>
+<li>
+<a href="/page/19/actions">Акции</a>
+</li>
+<li>
+<a href="/page/97/special-offers">Спецпредложения</a>
+</li>
+<li>
+<a href="/page/89/tochka-prodazh-aneks-tur">Турагентство ANEX Tour</a>
+</li>
+<li>
+<a href="/page/1291/anex-profi">ANEX Pro</a>
+</li>
+<li>
+<a href="/page/90/terms-of-cooperation">Сотрудничество</a>
+</li>
+<li>
+<a href="/page/95/conditions-and-methods-of-payment">Оплата</a>
+</li>
+<li>
+<a href="/page/835">Страхование</a>
+</li>
+<li>
+<a href="/page/96/release-of-documents">Выдача документов</a>
+</li>
+<li>
+<a href="/page/98/elektronnyy-dokumentooborot">Электронный документооборот</a>
+</li>
+<li>
+<a href="/page/73/tourist-info-all">Памятки туристам</a>
+</li>
+<li>
+<a href="/page/236/bonusnaya-programma">Бонусная программа</a>
+</li>
+<li>
+<a href="http://samo.anextour.com/default.php?page=bonus_manager&amp;">Бонусный баланс</a>
+</li>
+<li>
+<a href="/page/500/zapros-v-yuridicheskii-otdel">Запрос в юридический отдел</a>
+</li>
+<li>
+<a href="/page/569/fit">FIT (Отдел индивидуального туризма)</a>
+</li>
+<li>
+<a href="/page/104/mice">MICE (Отдел корпоративного туризма)</a>
+</li>
+<li>
+<a href="/page/1003/faq">Часто задаваемые вопросы</a>
+</li>
+<li>
+<a href="/page/473/lichnyi-kabinet">Личный кабинет</a>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-4 column">
+<div class="title">&#x410;&#x412;&#x418;&#x410;&#x41F;&#x415;&#x420;&#x415;&#x41B;&#x401;&#x422;&#x42B;</div>
+<ul class="submenu">
+<li>
+<a href="/flights">Монитор рейсов</a>
+</li>
+<li>
+<a href="/page/134/aviaperelyoty-vazhnaya-informaciya">Важная информация</a>
+</li>
+<li>
+<a href="/page/99/the-order-of-granting-certificates-of-cost-charters">Порядок предоставления справок о стоимости чартерного авиабилета</a>
+</li>
+<li>
+<a href="/page/135/informaciya-dlya-passazhirov">Информация для пассажиров</a>
+</li>
+<li>
+<a href="/page/138/aeroporty">Аэропорты</a>
+</li>
+<li>
+<a href="/page/136/reisy-s-dozapravkoi">Рейсы с дозаправкой</a>
+</li>
+<li>
+<a href="/page/520/opisanie-uslugi-fast-track">VIP услуги в аэропортах</a>
+</li>
+<li>
+<a href="/page/1004/novyi-uroven-poleta-komfort-i-biznes-klassy">Комфорт и бизнес классы</a>
+</li>
+<li>
+<a href="/page/570/dopolnitelnye-uslugi">Дополнительные услуги</a>
+</li>
+<li>
+<a href="/page/717/biznes-zaly-v-aeroportakh">Бизнес-залы в аэропортах</a>
+</li>
+<li>
+<a href="/page/1447/novaya-usluga-bilety-na-aeroekspress">Билеты на «Аэроэкспресс»</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3 contact-area">
+<div class="title">КОНТАКТЫ</div>
+<ul class="contact-list">
+<li>
+<a href="tel:0074996540404">&#x2B;7 499 654-04-04</a>
+</li>
+<li>
+<a href="/page/904/contacts">
+<span>Форма обратной связи</span>
+</a>
+</li>
+</ul>
+<div class="social-title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</div>
+<ul class="social-links">
+<li>
+<a href="https://www.facebook.com/anextourb2b" target="_blank">
+<i class="new-social-icon icon_fb"></i>
+</a>
+</li>
+<li>
+<a href="https://vk.com/anex_tour_b2b" target="_blank">
+<i class="new-social-icon icon_vk"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/anextour" target="_blank">
+<i class="new-social-icon icon_ig"></i>
+</a>
+</li>
+<li>
+<a href="https://www.ok.ru/anextourofficial" target="_blank">
+<i class="new-social-icon icon_ok"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="body">
+<div class="additional-container">
+<div class="container">
+<div class="row clearfix">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 subscribe-area">
+<div class="row clearfix">
+<div class="col-xs-12 col-sm-8 text-area">
+<p><img src="images/icons/envelope-small.png" /><span>Подписаться на рассылку</span></p>
+<p>Узнай первым об акциях и спецпредложениях</p>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="subscribe-container">
+<subscribe-form></subscribe-form>
+<div class="openhide-dropdown-menu btn-group dropup">
+<button class="btn btn-block btn-default js-subscribe-dropdown">Подписаться</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 online-catalog-area">
+<div class="title">ОНЛАЙН КАТАЛОГИ</div>
+<div class="show-all-link">
+<a href="/page/250/katalogi">
+<span>Все</span>
+<i class="fa fa-angle-right"></i>
+</a>
+</div>
+<ul class="magazine-list">
+<li><img data-src="/images/magazine/magazine-1.png" class="lazy" alt="Онлайн Каталоги 1" /></li>
+<li><img data-src="/images/magazine/magazine-2.png" class="lazy" alt="Онлайн Каталоги 2" /></li>
+<li><img data-src="/images/magazine/magazine-3.png" class="lazy" alt="Онлайн Каталоги 3" /></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12 col-lg-3 currency-area">
+<div class="title">КУРС ВАЛЮТЫ на <span>24.11.2019</span></div>
+<div class="currency">
+<span class="symbol">€</span>
+<span class="value">72.28</span>
+<span class="v-divider"></span>
+<span class="symbol">$</span>
+<span class="value">65.3</span>
+</div>
+<div class="link-area">
+<a href="javascript:void(0);" data-toggle="modal" data-target="#currencyModal">Смотреть архив курсов</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="partners-container">
+<div class="container">
+<div class="row clearfix">
+<div class="col-xs-12 col-sm-12 col-md-7">
+<div class="title">ПАРТНЕРЫ:</div>
+<ul class="partners-logo-list">
+<li>
+<a href="http://www.azurair.com/" target="_blank">
+<img data-src="/images/partners/ru/azurair.png" class="lazy" alt="Azurair" />
+</a>
+</li>
+<li>
+<a href="http://www.iata.org/" target="_blank">
+<img data-src="/images/partners/ru/iata.png" class="lazy" alt="IATA" />
+</a>
+</li>
+<li>
+<a href="https://www.tch.ru/ru-ru" target="_blank">
+<img data-src="/images/partners/ru/tkn.png" class="lazy" alt="TKN" />
+</a>
+</li>
+<li>
+<a href="http://www.atorus.ru/" target="_blank">
+<img data-src="/images/partners/ru/atop.png" class="lazy" alt="ATOP" />
+</a>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-5">
+
+<div id="russiatourism_widget"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer ANEXRU">
+<div class="container">
+&copy; 2019 ANEX Tour | Все права защищены.
+</div>
+</div>
+</footer>
+<div class="subscribe-rightside-container">
+<div class="openhide-dropdown-menu subscribe-container btn-group">
+<subscribe-form></subscribe-form>
+<button type="button" class="btn btn-subscribe js-subscribe-dropdown">
+Подписывайтесь на рассылку
+<img src="/images/icons/right-arrow.png" />
+</button>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022\/lib\/jquery\/dist\/jquery.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>(window.jQuery.ui||document.write("\u003Cscript src=\u0022\/lib\/jquery-ui\/jquery-ui.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>(window.jQuery && window.jQuery.fn && window.jQuery.fn.modal||document.write("\u003Cscript src=\u0022\/lib\/bootstrap\/dist\/js\/bootstrap.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script>(moment||document.write("\u003Cscript src=\u0022\/lib\/moment\/min\/moment.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/ru.js"></script>
+<script>(moment||document.write("\u003Cscript src=\u0022\/lib\/moment\/locale\/ru.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+<script>(angular||document.write("\u003Cscript src=\u0022\/lib\/angular\/angular.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+<script src="/grunt-minify/js/search-core.min.js?v=28"></script>
+<script src="https://pushv3.anextour.com/content/js/check-permission.js?v=28"></script>
+
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter27457467 = new Ya.Metrika({
+                    id: 27457467,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true,
+                    trackHash: true
+                });
+            } catch (e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/27457467" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-62200037-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+<script type="text/javascript" src="https://russiatourism.ru/operators/widget/js/widget.js"></script>
+<script>RT.Widget.build('%D0%A0%D0%A2%D0%9E+018486');</script>
+</body>
+</html>

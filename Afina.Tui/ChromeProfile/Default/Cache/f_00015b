@@ -1,0 +1,2410 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js" prefix="og: http://ogp.me/ns#" data-section="agency">
+    <head>
+                    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PgebUlE6cxGtZ9Nm1criMp0leXrqpd6bmSG8NadT9t1E9Rb3aPqCR8pSFvJO10m5Rs2GR0iETh1uZ3ZOvT-bjA" charset="UTF-8"></script><script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-K8BRKDT');
+</script>
+
+
+                <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Наличие мест на рейсах | Пегас Туристик</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+                    <meta property="og:url"         content="https://pegast.ru/agency/pegasys/flights">
+            <meta property="og:title"       content="Наличие мест на рейсах">
+            <meta property="og:description" content="">
+            <meta property="og:image"       content="//pegast.ru/images/logo_big.jpg?c9f3a7f">
+        
+        
+                                        <link href="/build/layout/legacy/b2b.css?c9f3a7f" type="text/css" rel="stylesheet">
+            
+        
+            <link href="/build/pegasys_legacy/layout/b2b.css?c9f3a7f" type="text/css" rel="stylesheet">
+        <link href="/build/retail/banners.css?c9f3a7f" type="text/css" rel="stylesheet">
+
+                            <script src="/build/runtime.js?c9f3a7f"></script>
+            <script src="/build/vendor.js?c9f3a7f"></script>
+                            <script src="/build/layout/legacy/b2b.js?c9f3a7f"></script>
+                    
+    <script src="/build/retail/banners.js?c9f3a7f"></script>
+
+    <script type="text/javascript" src="/build/pegasys_legacy/flight_availability.js?c9f3a7f"></script>
+
+            </head>
+
+    <body >
+                    <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8BRKDT"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+                <div id="wrapper" class="">    <div class="pgs-top">
+        <top-notification v-cloak>
+    Пользуясь сайтом pegast.ru, Вы автоматически принимаете
+    <a href="/special/consent_personal_data" target="_blank">правила передачи и обработки персональных данных</a>.
+</top-notification>    </div>
+
+    <header class="pgs-header">
+                    <div class="pgs-header__upper-cap" id="top_header">
+                <div id="top_header_grey">
+                    <div id="top_header_wrapper">
+                        <ul class="top_tabs">
+                                                            <li id="item_active" >
+                                    <a href="/">Туристам</a></li>
+                                <li id="item_active" class="active">
+                                    <a href="/agency">Агентствам</a></li>
+                                <li id="item_active" >
+                                        <a href="/agent">Персональным агентам</a></li>
+                                                    </ul>
+                                                    
+                        
+                        
+                                                    
+    <p id="header_currenceys">
+        При оплате: 20.12 -
+                    $/64.09
+                    €/71.33
+            </p>
+
+                                            </div>
+                </div>
+            </div>
+                            <div class="pgs-header__inner" id="header">
+                <div class="pgs-header__extra">
+                    <div class="header__logo__wrapper">
+                        <a class="header__logo" href="/agency"></a>
+                    </div>
+
+                    <div class="header__region">
+                        <div id="town_from">
+    <p>Город отправления:</p>
+    <div class="town_list btc" >
+        <a href="#"><span>Москва</span></a>
+        <ul class="town_list_menu">
+                            <li><a href="/online/change_town/2" id="departure_city_2">Москва</a></li>
+                            <li><a href="/online/change_town/88" id="departure_city_88">Нижний Новгород</a></li>
+                            <li><a href="/online/change_town/51" id="departure_city_51">Санкт-Петербург</a></li>
+                            <li><a href="/online/change_town/96" id="departure_city_96">Новокузнецк</a></li>
+                            <li><a href="/online/change_town/324" id="departure_city_324">Абакан</a></li>
+                            <li><a href="/online/change_town/97" id="departure_city_97">Новосибирск</a></li>
+                            <li><a href="/online/change_town/577" id="departure_city_577">Алматы</a></li>
+                            <li><a href="/online/change_town/99" id="departure_city_99">Омск</a></li>
+                            <li><a href="/online/change_town/54" id="departure_city_54">Архангельск</a></li>
+                            <li><a href="/online/change_town/101" id="departure_city_101">Оренбург</a></li>
+                            <li><a href="/online/change_town/55" id="departure_city_55">Астрахань</a></li>
+                            <li><a href="/online/change_town/105" id="departure_city_105">Пермь</a></li>
+                            <li><a href="/online/change_town/56" id="departure_city_56">Барнаул</a></li>
+                            <li><a href="/online/change_town/303" id="departure_city_303">Петропавловск-Камчатский</a></li>
+                            <li><a href="/online/change_town/57" id="departure_city_57">Белгород</a></li>
+                            <li><a href="/online/change_town/144" id="departure_city_144">Ростов-на-Дону</a></li>
+                            <li><a href="/online/change_town/257" id="departure_city_257">Благовещенск</a></li>
+                            <li><a href="/online/change_town/117" id="departure_city_117">Самара</a></li>
+                            <li><a href="/online/change_town/137" id="departure_city_137">Владивосток</a></li>
+                            <li><a href="/online/change_town/119" id="departure_city_119">Саратов</a></li>
+                            <li><a href="/online/change_town/138" id="departure_city_138">Волгоград</a></li>
+                            <li><a href="/online/change_town/545" id="departure_city_545">Сочи</a></li>
+                            <li><a href="/online/change_town/140" id="departure_city_140">Воронеж</a></li>
+                            <li><a href="/online/change_town/124" id="departure_city_124">Сургут</a></li>
+                            <li><a href="/online/change_town/64" id="departure_city_64">Екатеринбург</a></li>
+                            <li><a href="/online/change_town/506" id="departure_city_506">Сыктывкар</a></li>
+                            <li><a href="/online/change_town/69" id="departure_city_69">Иркутск</a></li>
+                            <li><a href="/online/change_town/127" id="departure_city_127">Томск</a></li>
+                            <li><a href="/online/change_town/74" id="departure_city_74">Казань</a></li>
+                            <li><a href="/online/change_town/129" id="departure_city_129">Тюмень</a></li>
+                            <li><a href="/online/change_town/71" id="departure_city_71">Калининград</a></li>
+                            <li><a href="/online/change_town/364" id="departure_city_364">Улан-Удэ</a></li>
+                            <li><a href="/online/change_town/576" id="departure_city_576">Калуга</a></li>
+                            <li><a href="/online/change_town/133" id="departure_city_133">Ульяновск</a></li>
+                            <li><a href="/online/change_town/75" id="departure_city_75">Кемерово</a></li>
+                            <li><a href="/online/change_town/131" id="departure_city_131">Уфа</a></li>
+                            <li><a href="/online/change_town/79" id="departure_city_79">Краснодар</a></li>
+                            <li><a href="/online/change_town/66" id="departure_city_66">Хабаровск</a></li>
+                            <li><a href="/online/change_town/80" id="departure_city_80">Красноярск</a></li>
+                            <li><a href="/online/change_town/546" id="departure_city_546">Ханты-Мансийск</a></li>
+                            <li><a href="/online/change_town/85" id="departure_city_85">Магнитогорск</a></li>
+                            <li><a href="/online/change_town/60" id="departure_city_60">Чебоксары</a></li>
+                            <li><a href="/online/change_town/574" id="departure_city_574">Махачкала</a></li>
+                            <li><a href="/online/change_town/61" id="departure_city_61">Челябинск</a></li>
+                            <li><a href="/online/change_town/338" id="departure_city_338">Минеральные Воды</a></li>
+                            <li><a href="/online/change_town/279" id="departure_city_279">Чита</a></li>
+                            <li><a href="/online/change_town/87" id="departure_city_87">Мурманск</a></li>
+                            <li><a href="/online/change_town/142" id="departure_city_142">Южно-Cахалинск</a></li>
+                            <li><a href="/online/change_town/93" id="departure_city_93">Нижневартовск</a></li>
+                            <li><a href="/online/change_town/240" id="departure_city_240">Якутск</a></li>
+                            <li><a href="/online/change_town/92" id="departure_city_92">Нижнекамск</a></li>
+                            <li><a href="/online/change_town/575" id="departure_city_575">Ярославль</a></li>
+                    </ul>
+    </div>
+</div>
+                    </div>
+
+                                            <div class="header__contacts--b2b">
+                        
+<div id="contacts_list">
+    <p id="town_change">Ваш город: </p>
+    <div class="clear"></div>
+    <a href="#region_office_select" id="region_select_link"><span>Москва,<br>
+    Москва и Московская обл.</span><i class="icons arrow_right_blue"></i></a>
+        <a class="ask_question" href="/agency/private/feedback"><span>Отзывы и предложения</span></a>
+    </div>
+
+<div class="hide">
+    <div id="region_office_select">
+        <h3>Выберите ваше местоположение</h3>
+        <div id="input_wrapper">
+            <select name="" id="contacts_region_select">
+                <option value="" selected>Выберите регион</option>
+                                                            <option value="6">Адыгея</option>
+                                                                                <option value="7">Алтайский край</option>
+                                                                                <option value="8">Амурская обл.</option>
+                                                                                <option value="9">Архангельская обл.</option>
+                                                                                <option value="10">Астраханская обл.</option>
+                                                                                <option value="11">Башкортостан(Башкирия)</option>
+                                                                                <option value="12">Белгородская обл.</option>
+                                                                                <option value="13">Брянская обл.</option>
+                                                                                <option value="14">Бурятия</option>
+                                                                                <option value="15">Владимирская обл.</option>
+                                                                                <option value="16">Волгоградская обл.</option>
+                                                                                <option value="17">Вологодская обл.</option>
+                                                                                <option value="18">Воронежская обл.</option>
+                                                                                <option value="19">Дагестан</option>
+                                                                                <option value="20">Еврейская Автономная обл.</option>
+                                                                                <option value="21">Ивановская обл.</option>
+                                                                                <option value="22">Иркутская обл.</option>
+                                                                                <option value="23">Кабардино-Балкария</option>
+                                                                                <option value="24">Калининградская обл.</option>
+                                                                                <option value="25">Калмыкия</option>
+                                                                                <option value="26">Калужская обл.</option>
+                                                                                <option value="27">Камчатский край</option>
+                                                                                <option value="28">Карелия</option>
+                                                                                <option value="29">Кемеровская обл.</option>
+                                                                                <option value="30">Кировская обл.</option>
+                                                                                <option value="31">Коми</option>
+                                                                                <option value="32">Костромская обл.</option>
+                                                                                <option value="33">Краснодарский край</option>
+                                                                                <option value="34">Красноярский край</option>
+                                                                                <option value="35">Курганская обл.</option>
+                                                                                <option value="36">Курская обл.</option>
+                                                                                <option value="37">Липецкая обл.</option>
+                                                                                <option value="38">Магаданская обл.</option>
+                                                                                <option value="39">Марий Эл</option>
+                                                                                <option value="40">Мордовия</option>
+                                                                                <option value="41">Москва и Московская обл.</option>
+                                                                                <option value="42">Мурманская обл.</option>
+                                                                                <option value="43">Нижегородская (Горьковская)</option>
+                                                                                <option value="44">Новгородская обл.</option>
+                                                                                <option value="45">Новосибирская обл.</option>
+                                                                                <option value="46">Омская обл.</option>
+                                                                                <option value="47">Оренбургская обл.</option>
+                                                                                <option value="48">Орловская обл.</option>
+                                                                                <option value="49">Пензенская обл.</option>
+                                                                                <option value="50">Пермский край</option>
+                                                                                <option value="51">Приморский край</option>
+                                                                                <option value="52">Псковская обл.</option>
+                                                                                <option value="53">Ростовская обл.</option>
+                                                                                <option value="54">Рязанская обл.</option>
+                                                                                <option value="55">Республика Алтай</option>
+                                                                                <option value="56">Республика Карачаево-Черкессия</option>
+                                                                                <option value="57">Самарская обл.</option>
+                                                                                <option value="58">Санкт-Петербург и область</option>
+                                                                                <option value="59">Саратовская обл.</option>
+                                                                                <option value="60">Саха (Якутия)</option>
+                                                                                <option value="61">Сахалин</option>
+                                                                                <option value="62">Свердловская обл.</option>
+                                                                                <option value="63">Северная Осетия</option>
+                                                                                <option value="64">Смоленская обл.</option>
+                                                                                <option value="65">Ставропольский край</option>
+                                                                                <option value="66">Тамбовская обл.</option>
+                                                                                <option value="67">Татарстан</option>
+                                                                                <option value="68">Тверская обл.</option>
+                                                                                <option value="69">Томская обл.</option>
+                                                                                <option value="70">Тува (Тувинская Респ.)</option>
+                                                                                <option value="71">Тульская обл.</option>
+                                                                                <option value="72">Тюменская обл.</option>
+                                                                                <option value="73">Удмуртия</option>
+                                                                                <option value="74">Ульяновская обл.</option>
+                                                                                <option value="76">Хабаровский край</option>
+                                                                                <option value="77">Хакасия</option>
+                                                                                <option value="78">Ханты-Мансийский АО</option>
+                                                                                <option value="79">Челябинская обл.</option>
+                                                                                <option value="80">Чеченская республика</option>
+                                                                                <option value="81">Республика Ингушетия</option>
+                                                                                <option value="82">Читинская обл.</option>
+                                                                                <option value="83">Чувашия</option>
+                                                                                <option value="84">Чукотский АО</option>
+                                                                                <option value="85">Ямало-Ненецкий АО</option>
+                                                                                <option value="86">Ярославская обл.</option>
+                                                                                                                    <option value="88">Республика Крым</option>
+                                                                                <option value="89">Вологодская область</option>
+                                                </select>
+            <select disabled name="" id="contacts_city_select">
+                <option value="">Выберите город</option>
+            </select>
+        </div>
+        <div id="data_wrapper">
+                                                                                                                                                                </div>
+        <div id="button_wrapper">
+            <button id="contacts_save_data">Сохранить</button>
+            <button id="contacts_close_data">Отмена</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="contact_header_wrapper">
+    <div id="contacts">
+    <p><span>Контакты офиса компании:</span><br></p>
+    <p id="current_city">Москва</p>
+        <p>
+        <span>Тел.:</span>
+        <span class="contacts_wrapper">
+                             +7 (495) 228-31-84
+                <br>
+                    </span>
+        <i class="clear"></i>
+    </p>
+    
+
+            <p><span>Эл. почта:</span>
+            <span class="contacts_wrapper"><a href="mailto:pegast@pegast.ru">pegast@pegast.ru</a>
+                    <br></span>
+            <i class="clear"></i>
+        </p>
+    
+    <a href="/agency/contacts">Все контакты<i class="icons arrow_right_blue"></i></a>
+
+</div>
+</div>
+
+                    </div>
+                                    </div>
+
+                
+                                        
+
+
+
+<ul id="content_menu" >
+                        <li class="drop">
+                <span>
+                    Личный кабинет
+                    <i class="icons blue_down_arrow_menu"></i>
+                </span>
+
+                <ul>
+                                                                        <li>    <a href="/agency/pegasys/search">
+        Поиск тура
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/private/pegasys/claim-catalog">
+        Справочник заявок
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/pegasys/master">
+        Мастер индивидуального тура
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/special/pegasys/registration">
+        Регистрация
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/special/pegasys/instruction">
+        Инструкция
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/pegasys/private/discounts/salesAndSmiles">
+        Бонусная программа
+    </a>
+</li>
+                                                            </ul>
+            </li>
+                                <li class="drop">
+                <span>
+                    О компании
+                    <i class="icons blue_down_arrow_menu"></i>
+                </span>
+
+                <ul>
+                                                                        <li>    <a href="/agency/about-company">
+        О нас
+    </a>
+</li>
+                                                                                                <li>    <a href="                            /agency/contacts
+    " id="main_menu_contacts_link">
+        Контакты
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/financial">
+        Финобеспечение
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/about-company/personal-data">
+        Защита персональных данных
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/about-company/awards">
+        Награды
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/about-company/jobs">
+        Вакансии
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/private/feedback">
+        Отзывы
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/about-company/graphics-materials">
+        Графические материалы
+    </a>
+</li>
+                                                            </ul>
+            </li>
+                                <li class="drop">
+                <span>
+                    Для Агентств
+                    <i class="icons blue_down_arrow_menu"></i>
+                </span>
+
+                <ul>
+                                                                        <li class="menu-title">Сотрудничество</li>
+                            <li class="hr"></li>
+
+                                                                                                <li>    <a href="/agency/cooperation">
+        Сотрудничество
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/faq">
+        Вопрос-ответ
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/private/cooperation/spo_type/new_spo">
+        Тарифы / скидки и акции
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/pegasys/private/discounts/salesAndSmiles">
+        Скидки и бонусы агентствам
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/famtrips/list">
+        Рекламные туры
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/meetings/seminars">
+        Семинары
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/meetings/webinars">
+        Онлайн-семинары
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/private/meetings/retail_webinars">
+        Онлайн-семинары ФР
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/meetings/workshops">
+        Workshop
+    </a>
+</li>
+                                                                                                <li class="menu-title">Дополнительное</li>
+                            <li class="hr"></li>
+
+                                                                                                <li>    <a href="/agency/news">
+        Новости
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/bill_payment">
+        Счёт, оплата
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/reference">
+        Справка по а/б
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/documents">
+        Выдача документов
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/visa">
+        Виза
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/vip">
+        Дополнительные услуги
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/corporate-travel">
+        Корпоративный туризм
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/event-travel">
+        Событийный туризм
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/avia-rules">
+        Общая информация об авиаперелетах
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/insurance">
+        Страхование
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/for-tourists">
+        Общая информация для туристов
+    </a>
+</li>
+                                                                                                <li>    <a href="/agency/payments">
+        Доплаты
+    </a>
+</li>
+                                                            </ul>
+            </li>
+                                <li>    <a href="/agency/franchising">
+        Франчайзинг
+    </a>
+</li>
+
+                                <li>    <a href="/agency/fit/about">
+        FIT
+    </a>
+</li>
+
+            </ul>
+
+
+                
+                
+                <div class="clearfix"></div>
+
+                                    <ul id="main_menu">
+    <li class="dropdown cyan">
+        <a href="javascript: void(0)">Онлайн бронирование</a>
+        <ul style="width: 237px;">
+            <li>
+                <a href="/agency/pegasys/search">Туры</a>
+            </li>
+                                        <li><a href="/agency/pegasys/master">Мастер индивидуального тура</a>
+                </li>
+                <li><a href="/agency/pegasys/hotel_search">Отели</a></li>
+                <li><a href="/agency/pegasys/flight_search">Авиабилеты на чартер</a></li>
+                        <li>
+                <a target="_blank" class="out" href="//aviator.pegast.su/">Авиабилеты на регулярные рейсы</a>
+            </li>
+        </ul>
+    </li>
+    <li class="country_button" id="js-country-menu">Страны</li><i></i>
+    <li>
+        <a href="/agency/hotels">Отели</a>
+    </li>
+    <li class="avia">
+        <a href="//aviator.pegast.su/" target="_blank">Авиабилеты</a>
+    </li>
+    </ul>
+
+                
+                                    <div class="pgs-country-menu" id="pgs-home-country-menu">
+    <ul class="pgs-country-menu__list">
+                                            <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/azerbaijan"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-azerbaijan"></i>
+                            Азербайджан
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/about">Об Азербайджане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/azerbaijan">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/azerbaijan">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/azerbaijan/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/excursions">Экскурсии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/azerbaijan/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/greece"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-greece"></i>
+                            Греция
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/about">О Греции</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/greece">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/greece/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/excursions">Экскурсии в Греции</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/greece/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/india"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-india"></i>
+                            Индия
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/about">Об Индии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/india">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/visa">Виза в Индию</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/india/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/excursions">Экскурсии по Индии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/excursion-tours">Экскурсионные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/india/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/cyprus"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-cyprus"></i>
+                            Кипр
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/about">О Кипре</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/cyprus">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/cyprus/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/excursions">Экскурсии на Кипре</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cyprus/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/morocco"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-morocco"></i>
+                            Марокко
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/about">О Марокко</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/morocco">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/morocco/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/excursions">Экскурсии в Марокко</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/morocco/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/seychelles"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-seychelles"></i>
+                            Сейшелы
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/about">О Сейшелах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/seychelles">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/seychelles">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/seychelles/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/excursions">Экскурсии на Сейшелах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/seychelles/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/turkey"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-turkey"></i>
+                            Турция
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/about">О Турции</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/turkey">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/turkey/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/excursions">Экскурсии в Турции</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/turkey/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/andorra"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-andorra"></i>
+                            Андорра
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/about">Об Андорре</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/andorra">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/andorra/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/excursions">Экскурсии в Андорре</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/andorra/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/georgia"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-georgia"></i>
+                            Грузия
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/about">О Грузии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/georgia">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/georgia/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/flight-rules">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/excursions">Экскурсии в Грузии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/georgia/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/indonesia"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-indonesia"></i>
+                            Индонезия
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/about">Об Индонезии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/indonesia">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/indonesia/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/excursions">Экскурсии по Индонезии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/indonesia/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/china"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-china"></i>
+                            Китай
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/about">О Китае</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/china">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/china/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/excursions">Экскурсии по Китаю</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/china/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/mexico"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-mexico"></i>
+                            Мексика
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/about">О Мексике</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/mexico">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/mexico/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/excursions">Экскурсии по Мексике</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mexico/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/thailand"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-thailand"></i>
+                            Таиланд
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/about">О Таиланде</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/thailand">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/thailand/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/excursions">Экскурсии по Таиланду</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/combined_tours">Комбинированные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/thailand/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/uzbekistan"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-uzbekistan"></i>
+                            Узбекистан
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/about">Об Узбекистане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/uzbekistan">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/uzbekistan">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/excursions">Экскурсии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/excursions_tours">Экскурсионные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uzbekistan/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/armenia"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-armenia"></i>
+                            Армения
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/about">Об Армении</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/armenia">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/armenia">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/excursions">Экскурсии в Армении</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/combined_tours">Комбинированные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/armenia/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/armenia/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/dominicana"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-dominicana"></i>
+                            Доминикана
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/about">О Доминикане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/dominican-republic">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominicana/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/dominicana/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/excursions">Экскурсии по Доминикане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/dominican-republic/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/jordan"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-jordan"></i>
+                            Иордания
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/about">Об Иордании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/jordan">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/jordan/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/excursions">Экскурсии по Иордании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jordan/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/cuba"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-cuba"></i>
+                            Куба
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/about">О Кубе</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/cuba">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/cuba/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/excursions">Экскурсии на Кубе</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/cuba/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/uae"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-uae"></i>
+                            ОАЭ
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/about">Об ОАЭ</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/uae">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/uae/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/excursions">Экскурсии в ОАЭ</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/uae/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/tanzania"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-tanzania"></i>
+                            Танзания
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/about">О Танзании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/tanzania">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/tanzania">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/tanzania/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/excursions">Экскурсии в Танзании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tanzania/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/sri-lanka"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-sri-lanka"></i>
+                            Шри-Ланка
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/about">О Шри-Ланке</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/sri-lanka">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/sri-lanka">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/sri-lanka/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/excursions">Экскурсии на Шри-Ланке</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/sri-lanka/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/bulgaria"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-bulgaria"></i>
+                            Болгария
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/about">О Болгарии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/bulgaria">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/bulgaria/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/excursions">Экскурсии в Болгарии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/bulgaria/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/egypt"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-egypt"></i>
+                            Египет
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/about">О Египте</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/egypt">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/egypt/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/excursions">Экскурсии в Египте</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/egypt/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/spain"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-spain"></i>
+                            Испания
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/about">Об Испании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/spain">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/spain/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/excursions">Экскурсии по Испании</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/spain/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/mauritius"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-mauritius"></i>
+                            Маврикий
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/about">О Маврикии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/mauritius">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/mauritius">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/mauritius/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/excursions">Экскурсии на Маврикии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/mauritius/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/oman"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-oman"></i>
+                            Оман
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/about">Об Омане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/oman">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/oman">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/oman/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/excursions">Экскурсии в Омане</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/oman/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/tunisia"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-tunisia"></i>
+                            Тунис
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/about">О Тунисе</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/tunisia">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/tunisia/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/excursions">Экскурсии в Тунисе</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/thalassotherapy">Талассотерапия</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/tunisia/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/jamaica"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-jamaica"></i>
+                            Ямайка
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/about">О Ямайке</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/jamaica">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/visa/jamaica">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/jamaica/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/excursions">Экскурсии на Ямайке</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/jamaica/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/vietnam"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-vietnam"></i>
+                            Вьетнам
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/about">О Вьетнаме</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/vietnam">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/vietnam/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/excursions">Экскурсии во Вьетнаме</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/combined_tours">Комбинированные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/vietnam/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/israel"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-israel"></i>
+                            Израиль
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/about">Об Израиле</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/israel">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/israel/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/excursions_tours">Экскурсионные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/israel/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/italy"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-italy"></i>
+                            Италия
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/about">Об Италии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/italy">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/italy/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/excursions">Экскурсии в Италии</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/excursion-tours">Экскурсионные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/supplements">Доплаты в Италию</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/italy/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/maldives"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-maldives"></i>
+                            Мальдивы
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/about">О Мальдивах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/maldives">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/maldives/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/combined_tours">Комбинированные туры</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/maldives/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                <li class="pgs-country-menu__item">
+                    <div class="dropdown dropdown--hover">
+                        <a href="/agency/russia"
+                           class="pgs-country-menu__item__name-country dropdown-toggle">
+                            <i class="icon-flag icon-flag-russia"></i>
+                            Россия
+                                                            <i class="icons menu_new"></i>
+                                                    </a>
+                        <ul class="country-menu__sub-menu dropdown-menu">
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/about">О России</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/hotels/russia">Отели</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/transfer">Трансфер</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/insurance">Страхование</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/visa">Виза</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/russia/checkpassport">Проверка срока паспорта</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/pegasys/flights">Наличие мест на рейсах</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/flight-rules">Правила авиаперелета</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/excursions">Экскурсии в России</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/supplements">Доплаты</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/vip">VIP услуги</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/documents">Как получить документы</a>
+                                </li>
+                                                            <li class="country-menu__sub-menu__item">
+                                    <a href="/agency/russia/tourist-memo">Памятка туриста</a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </li>
+                                                                                                                            </ul>
+</div>
+
+
+                
+                                                            
+                                    
+                <div class="clearfix"></div>
+
+                    <div class="[ header__notification pgs-notification pgs-notification_type_container pgs-notification_theme_warning ] _pgs-notification-show">
+        <div class="pgs-notification__content">
+            <p class="pgs-notification__message"><a href="http://pegasys.pegast.ru/" target="_blank">pegasys.pegast.ru</a> – резервный ресурс для поиска тура</p>
+        </div>
+    </div>
+
+            </div>
+            </header>
+    <div id="container">
+                            <div id="content_wrapper">
+                                        <div class="flight-checks">
+    <ul class="static-tabs">
+            <li >
+            <a href="/agency/pegasys/search">Поиск тура</a>
+        </li>
+                    <li >
+                <a href="/agency/pegasys/hotel_search">Отели</a>
+            </li>
+        
+                    <li >
+                <a href="/agency/pegasys/flight_search">Авиабилеты</a>
+            </li>
+                            <li >
+                <a href="/agency/pegasys/master">Мастер туров</a>
+            </li>
+                <li class="active">
+            <a href="/agency/pegasys/flights">Места на рейсах</a>
+        </li>
+        <li >
+            <a href="/agency/private/pegasys/claim-catalog">Личный кабинет</a>
+        </li>
+                    <li >
+                <a href="/agency/pegasys/private/discounts/salesAndSmiles">Скидки и бонусы</a>
+            </li>
+                                    </ul>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+
+            
+        
+    <form class="flight-check-form">
+        <div class="big_loader"><div class="notification">Обработка запроса</div></div>
+        <div class="left">
+            <div class="row">
+                <div class="legend">Город вылета</div>
+                <div class="input">
+                    <div class="pegasys_loader white"></div>
+                    <select name="departureCity">
+                        <option value="none">Выберите город отправления...</option>
+                                                    <option value="542">Абакан</option>
+                                                    <option value="553">Алматы</option>
+                                                    <option value="167900105">Анкара</option>
+                                                    <option value="390">Архангельск</option>
+                                                    <option value="491">Астрахань</option>
+                                                    <option value="391">Барнаул</option>
+                                                    <option value="392">Белгород</option>
+                                                    <option value="588">Благовещенск</option>
+                                                    <option value="393">Брянск</option>
+                                                    <option value="506">Владивосток</option>
+                                                    <option value="616">Владикавказ</option>
+                                                    <option value="394">Волгоград</option>
+                                                    <option value="497">Воронеж</option>
+                                                    <option value="395">Екатеринбург</option>
+                                                    <option value="9566058">Запорожье</option>
+                                                    <option value="396">Иркутск</option>
+                                                    <option value="397">Казань</option>
+                                                    <option value="398">Калининград</option>
+                                                    <option value="712">Калуга</option>
+                                                    <option value="5457926">Караганда</option>
+                                                    <option value="399">Кемерово</option>
+                                                    <option value="1094">Киев</option>
+                                                    <option value="640">Киров</option>
+                                                    <option value="347">Краби</option>
+                                                    <option value="400">Краснодар</option>
+                                                    <option value="401">Красноярск</option>
+                                                    <option value="1096">Львов</option>
+                                                    <option value="402">Магнитогорск</option>
+                                                    <option value="822">Махачкала</option>
+                                                    <option value="403">Минеральные Воды</option>
+                                                    <option value="76">Москва</option>
+                                                    <option value="510">Мурманск</option>
+                                                    <option value="512">Нижневартовск</option>
+                                                    <option value="404">Нижнекамск</option>
+                                                    <option value="405">Нижний Новгород</option>
+                                                    <option value="879">Новокузнецк</option>
+                                                    <option value="406">Новосибирск</option>
+                                                    <option value="892">Норильск</option>
+                                                    <option value="5453829">Нур-Султан</option>
+                                                    <option value="1090">Одесса</option>
+                                                    <option value="407">Омск</option>
+                                                    <option value="408">Оренбург</option>
+                                                    <option value="409">Пермь</option>
+                                                    <option value="500">Петропавловск-Камчатский</option>
+                                                    <option value="602">Псков</option>
+                                                    <option value="410">Ростов-на-Дону</option>
+                                                    <option value="119">Самара</option>
+                                                    <option value="411">Санкт-Петербург</option>
+                                                    <option value="942">Саранск</option>
+                                                    <option value="522">Саратов</option>
+                                                    <option value="7815526">Симферополь</option>
+                                                    <option value="982">Сочи</option>
+                                                    <option value="412">Сургут</option>
+                                                    <option value="519">Сыктывкар</option>
+                                                    <option value="3818580">Тбилиси</option>
+                                                    <option value="960">Томск</option>
+                                                    <option value="413">Тюмень</option>
+                                                    <option value="957">Улан-Удэ</option>
+                                                    <option value="525">Ульяновск</option>
+                                                    <option value="414">Уфа</option>
+                                                    <option value="415">Хабаровск</option>
+                                                    <option value="539">Харьков</option>
+                                                    <option value="494">Чебоксары</option>
+                                                    <option value="417">Челябинск</option>
+                                                    <option value="1036">Череповец</option>
+                                                    <option value="1043">Чита</option>
+                                                    <option value="503">Южно-Сахалинск</option>
+                                                    <option value="528">Якутск</option>
+                                            </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="legend">Аэропорт вылета</div>
+                <div class="input">
+                    <select disabled name="departureAirport">
+                        <option value="none">Выберите аэропорт...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="legend">Дата вылета</div>
+                <div class="input">
+                    <input class="start" autocomplete="off" disabled name="departureDateFrom" type="text">&nbsp;&mdash;&nbsp;<input class="end" disabled autocomplete="off" name="departureDateTo" type="text">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="row">
+                <div class="legend">Страна прибытия</div>
+                <div class="input">
+                    <div class="pegasys_loader second"></div>
+                    <select disabled name="destinationCountry">
+                        <option value="none">Выберите страну...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="legend">Город прибытия</div>
+                <div class="input">
+                    <select disabled name="destinationCity">
+                        <option value="none">Выберите город прибытия...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="legend">Дата возврата</div>
+                <div class="input">
+                    <input class="start" autocomplete="off" name="returnDateFrom" disabled type="text">&nbsp;&mdash;&nbsp;<input class="end" disabled autocomplete="off" name="returnDateTo" type="text">
+                </div>
+            </div>
+        </div>
+        <a class="main-button flights-filter-ok disabled">Показать</a>
+    </form>
+    <div class="legend__wrapper">
+        <div class="legend__block legend__block_title">
+            <span>Количество мест:</span>
+        </div>
+        <div class="legend__block legend__block_availability">
+            <div class="legend__info">
+                <div class="availability-icon availability-icon_many">
+                    <i class="pegasys-icon departureTrue"></i>
+                </div>
+                <span>&mdash; Много мест</span>
+            </div>
+            <div class="legend__info">
+                <div class="availability-icon availability-icon_few">
+                    <i class="pegasys-icon departureMedium"></i>
+                </div>
+                <span>&mdash; Мало мест</span>
+            </div>
+            <div class="legend__info">
+                <div class="availability-icon availability-icon_no">
+                    <i class="pegasys-icon departureFalse"></i>
+                </div>
+                <span>&mdash; Нет мест</span>
+            </div>
+        </div>
+        <div class="legend__block legend__block_title">
+            <span>Класс обслуживания:</span>
+        </div>
+        <div class="legend__block legend__block_available-class">
+            <div class="legend__info">
+                <span>Y &mdash; эконом</span>
+            </div>
+            <div class="legend__info">
+                <span>C &mdash; бизнес</span>
+            </div>
+            <div class="legend__info">
+                <span>P &mdash; премиум</span>
+            </div>
+            <div class="legend__info">
+                <span>K &mdash; комфорт</span>
+            </div>
+        </div>
+        <div class="legend__block">
+            <div class="legend__info-right">
+                <span class="flight-date-diff">+ 1</span>
+                <span>&mdash; вылет/прилет на следующие сутки</span>
+            </div>
+            <div class="legend__info-right">
+                <i class="pegasys-icon departureRequest"></i>
+                <span>&mdash; места по запросу</span>
+            </div>
+        </div>
+    </div>
+    <div class="flight-search-results"> </div>
+</div>
+                                    </div>
+                        <div class="clearfix"></div>
+        </div>
+</div>
+                    <div id="footer">
+    <div class="pgs-footer-payment">
+        <div class="pgs-footer-payment__inner container">
+                                        <a href="/agency/bill_payment" class="pgs-footer-payment__link">Способы оплаты</a>
+                <a href="/agency/bill_payment" class="logo-payment pgs-footer-payment__logo pgs-footer-payment__logo_view_promsvyaz"></a>
+                <a href="/agency/bill_payment" class="logo-payment pgs-footer-payment__logo pgs-footer-payment__logo_view_euroset"></a>
+                <a href="/agency/bill_payment" class="logo-payment pgs-footer-payment__logo pgs-footer-payment__logo_view_svyaznoi"></a>
+                <a href="/agency/bill_payment" class="logo-payment pgs-footer-payment__logo pgs-footer-payment__logo_view_sberbank"></a>
+                <a href="/agency/bill_payment" class="logo-payment pgs-footer-payment__logo pgs-footer-payment__logo_view_alfabank" title="Оплата наличными через банкоматы Альфа-банка"></a>
+                                </div>
+    </div>
+    <div id="footer-bottom">
+        <div class="footer-inner">
+                            <div class="menus">
+                    <ul class="footer-menu">
+                        <li><a href="/agency/about-company">О компании</a></li>
+                        <li><a href="/agency/news">Новости</a></li>
+                        <li><a href="/agency/about-company/jobs">Вакансии</a></li>
+                        <li><a href="/agency/cooperation">Сотрудничество</a></li>
+                        <li><a href="/agency/about-company/outbound_offices">Контактная информация</a></li>
+                        <br/>
+                        <li><a href="/special/consent_personal_data">Обработка персональных данных</a></li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <li><a href="/agency/pegasys/search">Туры</a></li>
+                        <li><a href="/agency/hotels">Гостиницы</a></li>
+                        <li><a href="//aviator.pegast.su/login" target="_blank">Авиабилеты</a></li>
+                        <li><a href="/agency/actions">Акции</a></li>                        <li><a href="/agency/toca">Полётная программа</a></li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <li><a href="/agency/documents">Выдача документов</a></li>
+                        <li><a href="/agency/recommendations">Рекомендации</a></li>
+                        <li><a href="/agency/faq">Вопрос-ответ</a></li>
+                        <li><a href="/agency/bill_payment">Счёт и оплата</a></li>
+                        <li><a href="/agency/how-to-buy/accommodations">Важная информация по турпродукту</a>
+                        </li>
+                    </ul>
+                </div>
+            
+            <div class="currencies">
+    <b>Курс оплаты туров</b>
+            <table class="currency-table">
+            <thead>
+            <tr>
+                <th></th>
+                <th>20.12</th>
+            </tr>
+            </thead>
+            <tbody>
+                            <tr>
+                    <td>Доллар США</td>
+                    <td>64.09</td>
+                </tr>
+                            <tr>
+                    <td>Евро</td>
+                    <td>71.33</td>
+                </tr>
+                        </tbody>
+        </table>
+        <a href="/agency/online/currency/archive">Архив курсов</a>
+</div>
+
+
+            <div class="clearfix"></div>
+            <div class="last-word">
+                <p>&copy; 2019 Pegas Touristik</p>
+
+                <p>Использование текстов и фотографий с сайта pegast.ru допускается только с письменного разрешения компании Pegas Touristik.</p>
+            </div>
+
+            <div id="counters">
+                                    <!-- Rating@Mail.ru counter -->
+<script type="text/javascript">//<![CDATA[
+    var a='';js=10;d=document;
+    try{a+=';r='+escape(d.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+    try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+    try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+    try{d.write('<a href="//top.mail.ru/jump?from=1738614"><img src="//top-fwz1.mail.ru/counter?id=1738614;t=57;js='+js+
+            a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" style="border:0;" height="31" width="88" \/><\/a>');}catch(e){}//]]></script>
+<noscript><p><a href="//top.mail.ru/jump?from=1738614"><img src="//top-fwz1.mail.ru/counter?js=na;id=1738614;t=57"
+                                                            style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a></p></noscript>
+
+                            </div>
+
+            <div class="footer__social-icons">
+                <ul class="info__social-links-list">
+    <li class="info__social-link"><a class="icon-social icon-social_vkontakte" target="_blank" href="http://vk.com/pegastouristik"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_facebook" target="_blank" href="http://facebook.com/pegastouristik"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_twitter" target="_blank" href="http://twitter.com/pegastourist"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_livejournal" target="_blank" href="https://pegastouristik.livejournal.com"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_odnoklassniki" target="_blank" href="http://odnoklassniki.ru/pegastur"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_youtube" target="_blank" href="http://www.youtube.com/pegasretail"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_instagram" target="_blank" href="https://instagram.com/pegas.touristik"></a></li>
+    <li class="info__social-link"><a class="icon-social icon-social_rutube" target="_blank" href="http://rutube.ru/video/person/65491/"></a></li>
+</ul>
+            </div>
+
+                    </div>
+    </div>
+</div>
+
+        </body>
+</html>

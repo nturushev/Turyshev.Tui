@@ -1,0 +1,632 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+
+    <!-- Set this to true if you enable server-side prerendering -->
+    <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <UserSecretsId>6a72f6bc-27df-452e-8e99-898019a1a229</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.0.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="2.0.1" />
+    <PackageReference Include="EPPlus" Version="4.5.3.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="NLog" Version="4.6.6" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.6" />
+    <PackageReference Include="OpenQA.Selenium.Winium" Version="1.0.0.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="wwwroot\ChromeProfile\Profile 1\blob_storage\**" />
+    <Compile Remove="wwwroot\ChromeProfile\Profile 1\File System\000\**" />
+    <Content Remove="$(SpaRoot)**" />
+    <Content Remove="wwwroot\ChromeProfile\Profile 1\blob_storage\**" />
+    <Content Remove="wwwroot\ChromeProfile\Profile 1\File System\000\**" />
+    <EmbeddedResource Remove="wwwroot\ChromeProfile\Profile 1\blob_storage\**" />
+    <EmbeddedResource Remove="wwwroot\ChromeProfile\Profile 1\File System\000\**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Remove="wwwroot\ChromeProfile\Profile 1\blob_storage\**" />
+    <None Remove="wwwroot\ChromeProfile\Profile 1\File System\000\**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="iataCodes.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\src\app\authenticate-xhr.backend.ts" />
+    <None Remove="ClientApp\src\app\directives\sortable.directive.ts" />
+    <None Remove="ClientApp\src\app\shared\models\filterSettings.ts" />
+    <None Remove="ClientApp\src\app\shared\models\flight.ts" />
+    <None Remove="ClientApp\src\app\shared\models\operator.ts" />
+    <None Remove="ClientApp\src\app\shared\services\base.service.ts" />
+    <None Remove="ClientApp\src\app\shared\services\credentials.interface.ts" />
+    <None Remove="ClientApp\src\app\shared\services\flight.service.ts" />
+    <None Remove="ClientApp\src\app\shared\services\user.service.ts" />
+    <None Remove="ClientApp\src\app\shared\utils\dateformat.ts" />
+    <None Remove="ClientApp\src\app\shared\utils\util.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="iataCodes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\ChromeProfile\Profile 1\AutofillStrikeDatabase\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\AutofillStrikeDatabase\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\AutofillStrikeDatabase\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\AutofillStrikeDatabase\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\AutofillStrikeDatabase\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\BudgetDatabase\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\BudgetDatabase\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\BudgetDatabase\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\BudgetDatabase\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\BudgetDatabase\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\data_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\data_1" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\data_2" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\data_3" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000002" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000003" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000004" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000005" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000006" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000007" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000008" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000009" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000a" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000b" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000c" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000d" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000e" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00000f" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000010" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000011" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000012" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000013" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000014" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000015" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000016" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000017" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000018" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00001a" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00001c" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00001d" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00001e" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00001f" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000020" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000021" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000022" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000023" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000024" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000025" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000026" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000027" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000028" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000029" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002a" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002b" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002c" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002d" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002e" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00002f" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000030" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000031" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000032" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000033" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000034" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000035" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000036" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000037" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000038" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_000039" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\f_00003a" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cache\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\08ec7d90d2abf4f0_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\146e09613d5e3fec_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\190ac33e86fd40fb_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\1d4cc936fa2cc891_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\20302cd424bf453c_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\2696e9a5b82df388_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\289f518409d8f0d5_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\2aff1fa1a70ef307_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\316bed56c4491d5b_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\325b7760beea4d35_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\366dc3b81c61371c_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\39f016ac3c15fa6c_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\3c4a1e651c5439b8_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\3e98365f5fe9473b_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\402ce1a1777375aa_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\4390088912ea324b_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\4483a39ee3b15a27_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\44b1b88768e539a6_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\45c1e2ba421d6e4d_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\4b94a3fa0bf96797_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\5139f3808371fd31_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\54436da0a7fc04cc_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\56cae12a73292e2f_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\5c00756f874e1f9a_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\6f2bb9c3ff98dffc_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\74b15ccd471923d5_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\94418600e25b4b57_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\984d5aa340b6f634_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\9a61caf7df40de5d_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\9b59d3fa18758980_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\a79ec67d6515c775_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\a7db45d289ae813a_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\af13846179f7e22f_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\b78106a586b20e43_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bb3d3bd5bdc4bae4_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bc779f8695adf384_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bcdf90e2779a2c2c_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bd34a5a16757c83b_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bd39209ff60a9fe5_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\bd4ca13a5b076ab1_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\c0a4e8ac586a2d57_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\c5a8da947aef4029_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\c5f0845fc247c7a4_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\c699a9400d16dfe0_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\c7df013ec788ab86_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\d0c626d00ebab89a_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\d3c809420acce6cb_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\df51e0a5e3d2141f_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\e568a84faffde765_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\e66fd24cd3c66a9a_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\e97fe1c050661c7e_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\eaf0eb3ee1bb5ef2_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\ebab18f5fd464140_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\f0e96fd864cdeae0_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\f263cb1b17ab3a9d_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\f5ed3666d008bab4_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\f8a58cbe33baa26d_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\fa9d5981647a2ba8_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\fc539c81236fdf76_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\fd00a289554c5612_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\fd60f8ba003f970b_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\fda172387e56b256_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Code Cache\js\index-dir\the-real-index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cookies" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Cookies-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Current Session" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Current Tabs" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\data_reduction_proxy_leveldb\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\data_reduction_proxy_leveldb\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\data_reduction_proxy_leveldb\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\data_reduction_proxy_leveldb\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\data_reduction_proxy_leveldb\MANIFEST-000002" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension Rules\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension Rules\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension Rules\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension Rules\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension Rules\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension State\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension State\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension State\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension State\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extension State\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0\icon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0\icon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0\main.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0\main.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\background_plugin.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\button_control.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\ext_remover.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\ext_remover.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\factory_settings.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\fakes.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\injection_id.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\main.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\popup_control.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\shims.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\tabs.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\webrequest_dispatcher.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\websocket_dispatcher.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\websocket_worker.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\xmlhttprequest_dispatcher.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\background\xmlhttprequest_worker.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\common\defaults.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\common\shims.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\common\tracing.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\common\unique_id.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\api_injection.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\content_plugin.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\fakes.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\product_info.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\script_injection.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\snapshot_resources.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\websocket_proxy.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\websocket_proxy_dispatcher.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\xmlhttprequest_proxy.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\content\xmlhttprequest_proxy_dispatcher.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\active_19.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\active_38.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\inactive_19.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\inactive_38.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\warning_19.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\button\warning_38.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\icon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\icon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\icon_32.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\icon_48.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\images\icon_64.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\offline_popup.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\offline_popup.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\popup.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\popup.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\popup.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\popup\popup_plugin.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot\script.light.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot\script.main.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot\script.popup.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\abn\anti_banner_balloon.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\abn\css_anti_banner_frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\common\frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\pc\password_control_balloon.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\pc\password_control_balloon_frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\ua\url_advisor_balloon.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\ua\url_advisor_frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\vk\secure_input_tooltip.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\vk\secure_input_tooltip_frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\vk\virtual_keyboard_input_icon.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\amkpcclbbgegoafihnpgomddadjhcadd\20.0.543.1418_0\snapshot_resources\vk\virtual_keyboard_input_icon_frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aohghmighlieiainnegkcijnfilokake\0.10_0\icon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aohghmighlieiainnegkcijnfilokake\0.10_0\icon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aohghmighlieiainnegkcijnfilokake\0.10_0\main.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\aohghmighlieiainnegkcijnfilokake\0.10_0\main.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\apdfllckaahabafndbhieahigkjlhalf\14.2_0\128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\blpcfgokakmgnkcojhhkbfbldkacnbeo\4.2.8_0\128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Append to Existing PDF_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\background.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\background.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\content_scripts.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Create and Email_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Create New PDF_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Create New PDF_19.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Create New PDF_32.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Create New PDF_48.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\Disable_32.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\logo128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\logo16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\logo32.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\logo48.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\options.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\options.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\popup.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\cifnddnffldieaamihfkhkdgnbhfmaci\9.6.0.0_0\popup.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\common.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\core.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\options.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\popup.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\popupUI.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\css\progress.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_16_translucent.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_20x19.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_20x19_translucent.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_24.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_24_translucent.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_38x37.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_38x37_translucent.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_48.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_48_translucent.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\acrobat_dc_appicon_56x54.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\CloseX.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\FailIcon.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\icons.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\progress.gif" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\spinner.gif" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\images\SuccessIcon.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\analytics.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\ch-content-script.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\content-util.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\ff-context-menu.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\frame.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\frame.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\frameUI.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\frameUI.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\get-html.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\libs\jquery-3.1.1.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\libs\jquery-3.1.1.min.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\options.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\options.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\progress.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\progress.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\data\js\settings.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\acro-actions.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\acro-gstate.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\acro-web2pdf.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\analytics.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\ch-context-menu.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\common.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\communicate.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\convert-to-zip.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\download-manager.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\feat.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\AppMeasurement.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\deflate.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\FileSaver.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\jquery-3.1.1.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\jquery-3.1.1.min.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\require-2.1.15.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\require.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\z-worker.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\libs\zip.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\proxy.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\session.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\settings.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\upload.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\lib\util.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\efaidnbmnnnibpcajpcglclefindmkaj\15.1.1.3_0\main.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\felcaaldnbdncclmgdcncolpebgiejap\1.2_0\icon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\felcaaldnbdncclmgdcncolpebgiejap\1.2_0\icon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\felcaaldnbdncclmgdcncolpebgiejap\1.2_0\main.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\felcaaldnbdncclmgdcncolpebgiejap\1.2_0\main.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\eventpage_bin_prod.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\page_embed_script.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\arrowUp.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\docs.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\logo.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\offlineIcon.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\questionMark.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\Roboto-Medium.ttf" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\Roboto-Regular.ttf" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\sheets.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\ghbmnnjooekpmoecnnnilnnbdlolhkhi\1.7_0\resources\slides.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\craw_background.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\craw_window.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\css\craw_window.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\html\craw_window.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\flapper.gif" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\icon_128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\icon_16.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\topbar_floating_button.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\topbar_floating_button_close.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\topbar_floating_button_hover.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\topbar_floating_button_maximize.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\nmmhkkegccagdldgiimedpiccmgmieda\1.0.0.5_0\images\topbar_floating_button_pressed.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pjkljhegncpnkpknbcohdijeoejaedia\8.2_0\128.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\angular.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\background_script.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_game_sender.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_sender.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\cast_app.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\cast_app_min.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\cast_app_redirect.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\chromecast_logo_grey.png" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\devices.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\index.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\offers.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\cast_setup\setup.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\common.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\feedback.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\feedback.html" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\feedback_script.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\material_css_min.css" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\mirroring_cast_streaming.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\mirroring_common.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\mirroring_hangouts.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Extensions\pkedcjkdefgpdelpbcmbmeomcjbeemfm\7519.422.0.3_0\mirroring_webrtc.js" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Favicons" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Favicons-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\AvailabilityDB\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\AvailabilityDB\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\AvailabilityDB\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\AvailabilityDB\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\AvailabilityDB\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\EventDB\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\EventDB\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\EventDB\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\EventDB\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Feature Engagement Tracker\EventDB\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\File System\Origins\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\File System\Origins\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\File System\Origins\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\File System\Origins\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\File System\Origins\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\Encryption\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\Encryption\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\Encryption\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\Encryption\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\Encryption\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\LOG.old" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GCM Store\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Google Profile.ico" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GPUCache\data_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GPUCache\data_1" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GPUCache\data_2" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GPUCache\data_3" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\GPUCache\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\History" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\History-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\IndexedDB\https_docs.google.com_0.indexeddb.leveldb\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\IndexedDB\https_docs.google.com_0.indexeddb.leveldb\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\IndexedDB\https_docs.google.com_0.indexeddb.leveldb\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\IndexedDB\https_docs.google.com_0.indexeddb.leveldb\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\IndexedDB\https_docs.google.com_0.indexeddb.leveldb\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\JumpListIconsMostVisited\bdfd2acc-5215-44ef-88ae-51d46b19f0c1.tmp" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\JumpListIconsRecentClosed\2a5df738-5e37-4ffc-99e6-3af60a3d1e9b.tmp" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\JumpListIconsRecentClosed\9927bb46-a83c-4bdc-9661-5c9a8d0dfa98.tmp" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\JumpListIconsRecentClosed\e2b291c7-3692-42a5-bf73-fb5bfd23d683.tmp" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Last Session" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Storage\leveldb\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Storage\leveldb\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Storage\leveldb\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Storage\leveldb\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Local Storage\leveldb\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Login Data" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Login Data-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Network Action Predictor" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Network Action Predictor-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Network Persistent State" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Platform Notifications\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Platform Notifications\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Platform Notifications\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Platform Notifications\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Platform Notifications\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Preferences" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\previews_opt_out.db" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\previews_opt_out.db-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\QuotaManager" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\QuotaManager-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\README" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Secure Preferences" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Session Storage\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Session Storage\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Session Storage\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Session Storage\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Session Storage\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\metadata\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\metadata\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\metadata\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\metadata\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\shared_proto_db\metadata\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Shortcuts" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Shortcuts-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Site Characteristics Database\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Site Characteristics Database\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Site Characteristics Database\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Site Characteristics Database\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Site Characteristics Database\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Code Cache\js\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Code Cache\js\index-dir\the-real-index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\GPUCache\data_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\GPUCache\data_1" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\GPUCache\data_2" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\GPUCache\data_3" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\GPUCache\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Network Persistent State" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Platform Notifications\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Platform Notifications\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Platform Notifications\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Platform Notifications\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\gfdkimpbcpahaombhbimeihdjnejgicl\def\Platform Notifications\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Code Cache\js\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Code Cache\js\index-dir\the-real-index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\GPUCache\data_0" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\GPUCache\data_1" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\GPUCache\data_2" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\GPUCache\data_3" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\GPUCache\index" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Network Persistent State" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Platform Notifications\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Platform Notifications\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Platform Notifications\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Platform Notifications\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Storage\ext\nmmhkkegccagdldgiimedpiccmgmieda\def\Platform Notifications\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Data\LevelDB\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Data\LevelDB\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Data\LevelDB\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Data\LevelDB\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Data\LevelDB\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\000003.log" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\CURRENT" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\LOCK" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\LOG" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\MANIFEST-000001" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Top Sites" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Top Sites-journal" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Translate Ranker Model" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\TransportSecurity" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Visited Links" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Web Data" />
+    <None Include="wwwroot\ChromeProfile\Profile 1\Web Data-journal" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Afina.Tui.Library\Afina.Tui.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\authenticate-xhr.backend.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\directives\sortable.directive.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\models\filterSettings.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\models\operator.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\models\flight.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\services\base.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\services\flight.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\models\credentials.interface.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\services\user.service.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\utils\dateformat.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\utils\util.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="nlog.Development.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="nlog.Production.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --prod" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:ssr -- --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**" />
+      <DistFiles Include="$(SpaRoot)node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

@@ -1,0 +1,31 @@
+.date-input {
+  max-width: 200px;
+}
+
+.date-button {
+  height: 30px;
+  margin-top: -3px;
+}
+
+.date-div {
+  display: initial;
+}
+
+.button-div {
+  margin-top: -4px;
+}
+
+.small-size {
+  width:80px;
+  max-width:80px;
+}
+
+
+.medium-size {
+  width: 150px;
+  max-width: 150px;
+}
+.big-size {
+  width: 200px;
+  max-width: 200px;
+}

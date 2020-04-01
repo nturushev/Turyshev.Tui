@@ -1,0 +1,153 @@
+<div class="row">
+  <div class="col-1" display="flex">
+    <label>Дата с</label>
+  </div>
+  <div class="col-3">
+    <input class="date-input" name="dateFrom" [(ngModel)]="dateFrom"
+           ngbDatepicker #dFrom="ngbDatepicker">
+    <div class="input-group-append date-div">
+      <button class="btn btn-outline-secondary calendar date-button" (click)="dFrom.toggle()" type="button"></button>
+    </div>
+  </div>
+  <div class="col-1">
+    <label>Дата по</label>
+  </div>
+  <div class="col-3">
+    <input class="date-input" name="dateTo" [(ngModel)]="dateTo" ngbDatepicker
+           #dTo="ngbDatepicker" />
+    <div class="input-group-append date-div">
+      <button class="btn btn-outline-secondary calendar date-button" (click)="dTo.toggle()" type="button"></button>
+    </div>
+  </div>
+  <div class="col-4 button-div">
+    <button class="btn btn-primary" (click)="getFlights()" [disabled]="isRequesting">Показать</button>
+    <button class="btn btn-outline-primary" style="margin-left:4px;" [disabled]="isRequesting" (click)="saveFlights()">Выгрузить в Excel</button>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-2 offset-5">
+    <app-spinner [isRunning]="isRequesting"></app-spinner>
+  </div>
+</div>
+<!--<span style="color:red">{{hideFilter()}}</span>-->
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" sortable="departureDate" class="small-size" (sort)="onSort($event)">Дата вылета</th>
+      <th scope="col" sortable="operatorName" class="medium-size" (sort)="onSort($event)">Оператор</th>
+      <th scope="col" sortable="flightNo" class="small-size" (sort)="onSort($event)">Номер рейса</th>
+      <th scope="col" sortable="flightCompanyName" class="medium-size" (sort)="onSort($event)">Авиакомпания</th>
+      <th scope="col" sortable="departureCity" class="medium-size" (sort)="onSort($event)">Город вылета</th>
+      <th scope="col" sortable="departureAirportCode" class="small-size" (sort)="onSort($event)">Аэропорт вылета</th>
+
+      <th scope="col" sortable="destinationAirportCodeWithConnecting" (sort)="onSort($event)">Аэропорт прилёта</th>
+      <th scope="col" sortable="departureTime" (sort)="onSort($event)">Время вылета/прилёта</th>
+      <!--<th scope="col" sortable="destinationTime | time" (sort)="onSort($event)">Время прилёта</th>-->
+      <th scope="col" sortable="aircraftKind" (sort)="onSort($event)">Борт</th>
+    </tr>
+    <!--<tr [hidden]="hideFilter()">-->
+    <tr>
+
+      <td data-help="departureDate" class="small-size"></td>
+      <td data-help="operatorName" class="medium-size">
+        <select name="selectedOperatorId" [(ngModel)]="selectedOperatorId" class="form-control"
+                (change)="changeOperatorId($event)">
+          <option *ngFor="let operator of operators" [value]="operator.operatorId">{{operator.name}}</option>
+        </select>
+      </td>
+      <td data-help="flightNo" class="small-size"><input class="small-size form-control" [(ngModel)]="selectedFlightNo" /></td>
+      <td data-help="flightCompanyName" class="medium-size">
+        <ng-select [items]="filteredAircompanies"
+                   [multiple]="true"
+                   bindLabel="name"
+                   [closeOnSelect]="false"
+                   bindValue="name"
+                   [(ngModel)]="selectedAirCompanies">
+          <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+            <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+          </ng-template>
+        </ng-select>
+      </td>
+      <td data-help="departureCity" class="medium-size"><input class="medium-size form-control" [(ngModel)]="selectedDepartureCity" /></td>
+      <td data-help="departureAirportCode" class="small-size">
+        <!--<select name="selectedDepartureAirport" [(ngModel)]="selectedDepartureAirport">
+      <option *ngFor="let departureAirport of filteredDepartureAirports" [value]="departureAirport">{{departureAirport}}</option>
+    </select>-->
+        <ng-select [items]="filteredDepartureAirports"
+                   [multiple]="true"
+                   bindLabel="name"
+                   [closeOnSelect]="false"
+                   bindValue="name"
+                   [(ngModel)]="selectedDepartureAirports">
+          <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+            <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+          </ng-template>
+        </ng-select>
+      </td>
+
+      <td data-help="destinationAirportCodeWithConnecting" class="small-size">
+
+        <ng-select [items]="filteredDestinationAirports"
+                   [multiple]="true"
+                   bindLabel="name"
+                   [closeOnSelect]="false"
+                   bindValue="name"
+                   [(ngModel)]="selectedDestinationAirports">
+          <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+            <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected" /> {{item.name}}
+          </ng-template>
+        </ng-select>
+      </td>
+      <td  data-help="time" class="small-size"></td>
+      <!--<td data-help="destinationTime" class="small-size"></td>-->
+      <td data-help="aircraftKind" class="small-size"><input class="small-size form-control" [(ngModel)]="selectedAirCraftKind" /></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let flight of flights">
+      <td class="small-size">
+        <ngb-highlight [result]="flight.departureDate | date:'dd.MM.yyyy'"></ngb-highlight>
+      </td>
+      <td class="medium-size">
+        <ngb-highlight [result]="flight.operatorName"></ngb-highlight>
+      </td>
+      <td class="small-size">
+        <ngb-highlight [result]="flight.flightNo"></ngb-highlight>
+      </td>
+      <td class="medium-size">
+        <ngb-highlight [result]="flight.flightCompanyName"></ngb-highlight>
+      </td>
+      <td class="small-size">
+        <ngb-highlight [result]="flight.departureCity"></ngb-highlight>
+      </td>
+      <td class="small-size">
+        <ngb-highlight [result]="flight.departureAirportCode"></ngb-highlight>
+      </td>
+
+      <td>
+        <ngb-highlight [result]="flight.destinationAirportCodeWithConnecting"></ngb-highlight>
+      </td>
+      <td>
+        <ngb-highlight [result]="flight.time()"></ngb-highlight>
+      </td>
+      <!--<td>
+    <ngb-highlight [result]="flight.destinationTime"></ngb-highlight>
+  </td>-->
+      <td>
+        <ngb-highlight [result]="flight.aircraftKind"></ngb-highlight>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--<div class="d-flex justify-content-between p-2">
+  <ngb-pagination [collectionSize]="total$ | async" [(page)]="service.page" [pageSize]="service.pageSize">
+  </ngb-pagination>
+
+  <select class="custom-select" style="width: auto" name="pageSize" [(ngModel)]="service.pageSize">
+    <option [ngValue]="10">10 items per page</option>
+    <option [ngValue]="25">25 items per page</option>
+    <option [ngValue]="50">50 items per page</option>
+  </select>
+</div>-->

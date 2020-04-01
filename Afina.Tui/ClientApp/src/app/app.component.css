@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+  .body-content {
+    padding-top: 50px;
+  }
+
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+}

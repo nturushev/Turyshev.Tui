@@ -1,0 +1,14 @@
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\obj\Release\netcoreapp2.1\Afina.Tui.Library.AssemblyInfoInputs.cache
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\obj\Release\netcoreapp2.1\Afina.Tui.Library.AssemblyInfo.cs
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\iataCodes.json
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\Afina.Tui.Library.deps.json
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\Afina.Tui.Library.runtimeconfig.json
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\Afina.Tui.Library.runtimeconfig.dev.json
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\Afina.Tui.Library.dll
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\obj\Release\netcoreapp2.1\Afina.Tui.Library.csprojAssemblyReference.cache
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\bin\Release\netcoreapp2.1\Afina.Tui.Library.pdb
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\obj\Release\netcoreapp2.1\Afina.Tui.Library.dll
+C:\Users\NTuryshev\Documents\Afina.Tui\Afina.Tui.Library\obj\Release\netcoreapp2.1\Afina.Tui.Library.pdb
